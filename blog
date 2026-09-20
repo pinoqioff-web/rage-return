@@ -3,7 +3,7 @@ from pathlib import Path
 
 p=Path("blog.html")
 s=p.read_text()
-s=s.replace('</nav>', '<a href="articles.html">المقالات</a><a href="tools.html">الأدوات</a><a href="tutorials.html">الشروحات</a><a href="downloads.html">التحميلات</a></nav>')
+s=s.replace('</nav>', '<a href='/articles'>المقالات</a><a href='/tools'>الأدوات</a><a href='/tutorials'>الشروحات</a><a href='/downloads'>التحميلات</a></nav>')
 p.write_text(s)
 
 pages={
@@ -15,7 +15,7 @@ from pathlib import Path
 
 p=Path("blog.html")
 s=p.read_text()
-s=s.replace('</nav>', '<a href="articles.html">المقالات</a><a href="tools.html">الأدوات</a><a href="tutorials.html">الشروحات</a><a href="downloads.html">التحميلات</a></nav>')
+s=s.replace('</nav>', '<a href='/articles'>المقالات</a><a href='/tools'>الأدوات</a><a href='/tutorials'>الشروحات</a><a href='/downloads'>التحميلات</a></nav>')
 p.write_text(s)
 
 pages={
@@ -26,7 +26,7 @@ pages={
 "terms.html":("الشروط والأحكام","باستخدام PINOQIO BLOG فإنك توافق على استخدام الموقع بطريقة قانونية وعدم إساءة استخدام المحتوى أو الخدمات.")
 }
 
-nav='''<nav><a href="index.html">الرئيسية</a><a href="blog.html">المدونة</a><a href="articles.html">المقالات</a><a href="tools.html">الأدوات</a><a href="tutorials.html">الشروحات</a><a href="downloads.html">التحميلات</a></nav>'''
+nav='''<nav><a href='/'>الرئيسية</a><a href='/blog'>المدونة</a><a href='/articles'>المقالات</a><a href='/tools'>الأدوات</a><a href='/tutorials'>الشروحات</a><a href='/downloads'>التحميلات</a></nav>'''
 
 for file,(title,text) in pages.items():
     html=f'''<!doctype html><html lang="ar" dir="rtl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title} | PINOQIO BLOG</title><style>body{{margin:0;background:#070707;color:#fff;font-family:Arial;line-height:1.9}}header{{padding:35px;text-align:center;background:linear-gradient(135deg,#180000,#080808)}}.logo{{font-size:32px;font-weight:900;color:#d4af37;text-shadow:0 0 12px #d4af37,0 0 25px red}}nav{{display:flex;gap:8px;overflow:auto;padding:12px;background:#111}}nav a{{color:#fff;text-decoration:none;padding:9px;white-space:nowrap}}main{{width:92%;max-width:850px;margin:auto;padding:40px 0}}h1{{color:#d4af37}}.box{{background:#111;border:1px solid #292929;border-radius:15px;padding:25px}}footer{{text-align:center;padding:35px;color:#666}}</style><link rel="stylesheet" href="assets/css/neon.css"></head><body><header><div class="logo">PINOQIO BLOG</div></header>{nav}<main><h1>{title}</h1><div class="box"><p>{text}</p><p>© 2026 PINOQIO BLOG</p></div></main><footer>PINOQIO BLOG</footer></body></html>'''
@@ -69,11 +69,11 @@ footer{text-align:center;padding:35px;color:#666}
 </header>
 
 <nav>
-<a href="index.html">الرئيسية</a>
-<a href="blog.html">المدونة</a><a href="articles.html">المقالات</a>
-<a href="tools.html">الأدوات</a>
-<a href="tutorials.html">الشروحات</a>
-<a href="downloads.html">التحميلات</a>
+<a href='/'>الرئيسية</a>
+<a href='/blog'>المدونة</a><a href='/articles'>المقالات</a>
+<a href='/tools'>الأدوات</a>
+<a href='/tutorials'>الشروحات</a>
+<a href='/downloads'>التحميلات</a>
 </nav>
 
 <main class="container">
@@ -90,25 +90,25 @@ footer{text-align:center;padding:35px;color:#666}
 أول مقال في الموقع والتعريف بفكرة PINOQIO BLOG
 والمحتوى الذي سيضاف إليه.
 </p>
-<a class="btn" href="posts/first-article.html">اقرأ المقال ←</a>
+<a class='btn' href='/posts/first-article'>اقرأ المقال ←</a>
 </div>
 
 <div class="card">
 <h2>📚 المقالات</h2>
 <p>شروحات ومقالات منظمة داخل الموقع.</p>
-<a class="btn" href="tutorials.html">استكشف</a>
+<a class='btn' href='/tutorials'>استكشف</a>
 </div>
 
 <div class="card">
 <h2>🛠️ الأدوات والملفات</h2>
 <p>أدوات وملفات، ولكل ملف صفحة مستقلة عند إضافته.</p>
-<a class="btn" href="tools.html">استكشف</a>
+<a class='btn' href='/tools'>استكشف</a>
 </div>
 
 <div class="card">
 <h2>📥 التحميلات</h2>
 <p>صفحات تحميل منظمة مع تفاصيل كل ملف.</p>
-<a class="btn" href="downloads.html">فتح التحميلات</a>
+<a class='btn' href='/downloads'>فتح التحميلات</a>
 </div>
 
 </div>
@@ -170,11 +170,11 @@ footer{text-align:center;padding:35px;color:#666}
 </header>
 
 <nav>
-<a href="index.html">الرئيسية</a>
-<a href="blog.html">المدونة</a><a href="articles.html">المقالات</a>
-<a href="tools.html">الأدوات</a>
-<a href="tutorials.html">الشروحات</a>
-<a href="downloads.html">التحميلات</a>
+<a href='/'>الرئيسية</a>
+<a href='/blog'>المدونة</a><a href='/articles'>المقالات</a>
+<a href='/tools'>الأدوات</a>
+<a href='/tutorials'>الشروحات</a>
+<a href='/downloads'>التحميلات</a>
 </nav>
 
 <main class="container">
@@ -188,25 +188,25 @@ footer{text-align:center;padding:35px;color:#666}
 <div class="card">
 <h2>📚 المقالات</h2>
 <p>شروحات ومحتوى منظم داخل PINOQIO BLOG.</p>
-<a href="tutorials.html">استكشف</a>
+<a href='/tutorials'>استكشف</a>
 </div>
 
 <div class="card">
 <h2>🛠️ الملفات والأدوات</h2>
 <p>ملفات وأدوات، وكل ملف يمكن أن يكون له صفحة مستقلة.</p>
-<a href="tools.html">استكشف</a>
+<a href='/tools'>استكشف</a>
 </div>
 
 <div class="card">
 <h2>📥 التحميلات</h2>
 <p>صفحات تحميل منظمة مع تفاصيل كل ملف.</p>
-<a href="downloads.html">فتح مركز التحميل</a>
+<a href='/downloads'>فتح مركز التحميل</a>
 </div>
 
 <div class="card">
 <h2>🎮 المحتوى</h2>
 <p>محتوى الألعاب والتقنية داخل تصنيفات منفصلة.</p>
-<a href="free-fire.html">استكشف</a>
+<a href='/free-fire'>استكشف</a>
 </div>
 
 </div>

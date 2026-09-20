@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>الأدوات | PINOQIO BLOG</title>
+<title>المقالات | PINOQIO BLOG</title>
+
 <style>
 *{box-sizing:border-box}
 body{margin:0;background:#070707;color:#fff;font-family:Arial,sans-serif}
@@ -29,44 +30,43 @@ footer{text-align:center;padding:35px;color:#666;margin-top:30px}
 
 <header>
 <div class="logo">PINOQIO BLOG</div>
-<p>Tools • Files • Gaming • Technology</p>
+<p>المقالات والشروحات</p>
 </header>
 
 <nav>
-<a href="index.html">الرئيسية</a>
-<a href="blog.html">المدونة</a>
-<a href="articles.html">المقالات</a>
-<a href="tools.html">الأدوات</a>
-<a href="tutorials.html">الشروحات</a>
-<a href="downloads.html">التحميلات</a>
+<a href='/'>الرئيسية</a>
+<a href='/blog'>المدونة</a>
+<a href='/articles'>المقالات</a>
+<a href='/tools'>الأدوات</a>
+<a href='/tutorials'>الشروحات</a>
+<a href='/downloads'>التحميلات</a>
 </nav>
 
 <main class="container">
 
-<h1>🛠️ الأدوات</h1>
+<h1>📚 جميع المقالات</h1>
 
-<input class="search" id="search" placeholder="🔎 ابحث عن أداة...">
+<input
+class="search"
+id="search"
+placeholder="🔎 ابحث عن مقال..."
+>
 
-<div class="grid">
-
-<div class="card">
-<div class="tag">TOOL • PINOQIO</div>
-<h2>🧰 أداة جديدة</h2>
-<p>
-هنا هنضيف الأدوات المفيدة مع شرح طريقة استخدامها
-ورابط الصفحة الخاصة بها.
-</p>
-<a class="btn" href="downloads.html">استكشف الملفات ←</a>
-</div>
+<div class="grid" id="articles">
 
 <div class="card">
-<div class="tag">TOOLS • 2026</div>
-<h2>⚡ أدوات وتقنيات</h2>
+<div class="tag">PINOQIO BLOG • 2026</div>
+
+<h2>👋 أهلًا بك في PINOQIO BLOG</h2>
+
 <p>
-قسم مخصص للأدوات والموارد التقنية التي سيتم
-إضافتها إلى الموقع مستقبلًا.
+تعرف على فكرة الموقع والمحتوى الذي سيتم نشره
+من مقالات وشروحات وأدوات وملفات.
 </p>
-<a class="btn" href="articles.html">شاهد المقالات ←</a>
+
+<a class='btn' href='/posts/first-article'>
+اقرأ المقال ←
+</a>
 </div>
 
 </div>
@@ -80,8 +80,12 @@ footer{text-align:center;padding:35px;color:#666;margin-top:30px}
 <script>
 document.getElementById("search").addEventListener("input",function(){
 let q=this.value.toLowerCase();
+
 document.querySelectorAll(".card").forEach(card=>{
-card.style.display=card.innerText.toLowerCase().includes(q)?"block":"none";
+card.style.display=
+card.innerText.toLowerCase().includes(q)
+?"block"
+:"none";
 });
 });
 </script>

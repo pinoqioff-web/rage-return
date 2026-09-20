@@ -22,7 +22,7 @@ h2{color:#d4af37}
 <div class="wrap">
 <header>
 <div class="logo">PINOQIO BLOG</div>
-<p><a href="../index.html">الرئيسية</a> · <a href="../articles.html">المقالات</a> · <a href="../downloads.html">التحميلات</a></p>
+<p><a href='/'>الرئيسية</a> · <a href='/articles'>المقالات</a> · <a href='/downloads'>التحميلات</a></p>
 </header>
 
 <article>
@@ -66,7 +66,7 @@ h2{color:#d4af37}
 <div class="box">
 <h2>📥 الملفات</h2>
 <p>لا يوجد ملف تحميل مرتبط بهذا المقال حاليًا. لن نضع زر تحميل لملف غير موجود.</p>
-<a class="btn" href="../downloads.html">صفحة التحميلات</a>
+<a class='btn' href='/downloads'>صفحة التحميلات</a>
 </div>
 
 <div class="box">
@@ -81,7 +81,7 @@ h2{color:#d4af37}
 
 <div class="box">
 <h2>📚 اقرأ أيضًا</h2>
-<a class="btn" href="../blog.html">العودة إلى PINOQIO BLOG</a>
+<a class='btn' href='/blog'>العودة إلى PINOQIO BLOG</a>
 </div>
 </article>
 

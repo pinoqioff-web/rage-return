@@ -3,8 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>الشروحات | PINOQIO BLOG</title>
-
+<title>الأدوات | PINOQIO BLOG</title>
 <style>
 *{box-sizing:border-box}
 body{margin:0;background:#070707;color:#fff;font-family:Arial,sans-serif}
@@ -30,48 +29,44 @@ footer{text-align:center;padding:35px;color:#666;margin-top:30px}
 
 <header>
 <div class="logo">PINOQIO BLOG</div>
-<p>شروحات • Tutorials • Guides</p>
+<p>Tools • Files • Gaming • Technology</p>
 </header>
 
 <nav>
-<a href="index.html">الرئيسية</a>
-<a href="blog.html">المدونة</a>
-<a href="articles.html">المقالات</a>
-<a href="tools.html">الأدوات</a>
-<a href="tutorials.html">الشروحات</a>
-<a href="downloads.html">التحميلات</a>
+<a href='/'>الرئيسية</a>
+<a href='/blog'>المدونة</a>
+<a href='/articles'>المقالات</a>
+<a href='/tools'>الأدوات</a>
+<a href='/tutorials'>الشروحات</a>
+<a href='/downloads'>التحميلات</a>
 </nav>
 
 <main class="container">
 
-<h1>🎓 الشروحات</h1>
+<h1>🛠️ الأدوات</h1>
 
-<input class="search" id="search" placeholder="🔎 ابحث عن شرح...">
+<input class="search" id="search" placeholder="🔎 ابحث عن أداة...">
 
 <div class="grid">
 
 <div class="card">
-<div class="tag">GUIDE • PINOQIO</div>
-<h2>📖 شرح جديد</h2>
+<div class="tag">TOOL • PINOQIO</div>
+<h2>🧰 أداة جديدة</h2>
 <p>
-هنا هنضيف الشروحات خطوة بخطوة مع الصور والفيديو
-والملفات المرتبطة بالشرح.
+هنا هنضيف الأدوات المفيدة مع شرح طريقة استخدامها
+ورابط الصفحة الخاصة بها.
 </p>
-<a class="btn" href="posts/first-article.html">
-اقرأ الشرح ←
-</a>
+<a class='btn' href='/downloads'>استكشف الملفات ←</a>
 </div>
 
 <div class="card">
-<div class="tag">TUTORIAL • 2026</div>
-<h2>🎬 شروحات الفيديو</h2>
+<div class="tag">TOOLS • 2026</div>
+<h2>⚡ أدوات وتقنيات</h2>
 <p>
-شروحات مرتبطة بمحتوى Pinoqio FF والمواضيع
-التقنية والألعاب.
+قسم مخصص للأدوات والموارد التقنية التي سيتم
+إضافتها إلى الموقع مستقبلًا.
 </p>
-<a class="btn" href="https://www.youtube.com/@PinoqioFF" target="_blank">
-شاهد الفيديوهات ←
-</a>
+<a class='btn' href='/articles'>شاهد المقالات ←</a>
 </div>
 
 </div>
