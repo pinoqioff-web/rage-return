@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>Audio Test</title>
+</head>
+<body style="background:#111;color:white;text-align:center;padding-top:100px">
+
+<h2>Quran Audio Test</h2>
+
+<button id="play" style="font-size:22px;padding:15px 30px">
+تشغيل الصوت
+</button>
+
+<script>
+const audio = new Audio("./quran.mp3");
+audio.loop = true;
+audio.volume = 1;
+
+document.getElementById("play").onclick = async () => {
+  try {
+    await audio.play();
+    document.getElementById("play").textContent = "الصوت يعمل 🔊";
+  } catch (e) {
+    document.getElementById("play").textContent = "خطأ: " + e.name;
+  }
+};
+</script>
+
+</body>
+</html>

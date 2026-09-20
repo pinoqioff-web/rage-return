@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>الأدوات | PINOQIO BLOG</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#070707;color:#fff;font-family:Arial,sans-serif}
+header{padding:35px 20px;text-align:center;background:linear-gradient(135deg,#180000,#080808)}
+.logo{font-size:34px;font-weight:900;color:#d4af37;text-shadow:0 0 12px #d4af37,0 0 25px red}
+nav{display:flex;gap:8px;overflow:auto;padding:12px;background:#111}
+nav a{color:#fff;text-decoration:none;padding:10px 14px;white-space:nowrap}
+.container{width:92%;max-width:1000px;margin:auto}
+h1{color:#d4af37;margin-top:35px}
+.search{width:100%;padding:15px;margin:20px 0;background:#111;border:1px solid #333;border-radius:10px;color:#fff;font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+.card{background:#111;border:1px solid #292929;border-radius:15px;padding:22px}
+.card h2{color:#d4af37;margin-top:0}
+.card p{color:#bbb}
+.tag{color:#e71919;font-size:13px;font-weight:bold}
+.btn{display:inline-block;margin-top:10px;padding:11px 16px;background:#e71919;color:#fff;text-decoration:none;border-radius:8px}
+footer{text-align:center;padding:35px;color:#666;margin-top:30px}
+@media(max-width:650px){.grid{grid-template-columns:1fr}}
+</style>
+<link rel="stylesheet" href="assets/css/neon.css"></head>
+
+<body>
+
+<header>
+<div class="logo">PINOQIO BLOG</div>
+<p>Tools • Files • Gaming • Technology</p>
+</header>
+
+<nav>
+<a href="index.html">الرئيسية</a>
+<a href="blog.html">المدونة</a>
+<a href="articles.html">المقالات</a>
+<a href="tools.html">الأدوات</a>
+<a href="tutorials.html">الشروحات</a>
+<a href="downloads.html">التحميلات</a>
+</nav>
+
+<main class="container">
+
+<h1>🛠️ الأدوات</h1>
+
+<input class="search" id="search" placeholder="🔎 ابحث عن أداة...">
+
+<div class="grid">
+
+<div class="card">
+<div class="tag">TOOL • PINOQIO</div>
+<h2>🧰 أداة جديدة</h2>
+<p>
+هنا هنضيف الأدوات المفيدة مع شرح طريقة استخدامها
+ورابط الصفحة الخاصة بها.
+</p>
+<a class="btn" href="downloads.html">استكشف الملفات ←</a>
+</div>
+
+<div class="card">
+<div class="tag">TOOLS • 2026</div>
+<h2>⚡ أدوات وتقنيات</h2>
+<p>
+قسم مخصص للأدوات والموارد التقنية التي سيتم
+إضافتها إلى الموقع مستقبلًا.
+</p>
+<a class="btn" href="articles.html">شاهد المقالات ←</a>
+</div>
+
+</div>
+
+</main>
+
+<footer>
+© 2026 PINOQIO BLOG
+</footer>
+
+<script>
+document.getElementById("search").addEventListener("input",function(){
+let q=this.value.toLowerCase();
+document.querySelectorAll(".card").forEach(card=>{
+card.style.display=card.innerText.toLowerCase().includes(q)?"block":"none";
+});
+});
+</script>
+
+</body>
+</html>

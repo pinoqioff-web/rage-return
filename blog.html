@@ -1,0 +1,237 @@
+cd ~/rage-return && cp blog.html blog.before-final.html && python - <<'PY'
+from pathlib import Path
+
+p=Path("blog.html")
+s=p.read_text()
+s=s.replace('</nav>', '<a href="articles.html">المقالات</a><a href="tools.html">الأدوات</a><a href="tutorials.html">الشروحات</a><a href="downloads.html">التحميلات</a></nav>')
+p.write_text(s)
+
+pages={
+"about.html":("من نحن","PINOQIO BLOG هو موقع محتوى يهتم بالمقالات والشروحات والأدوات والملفات والمحتوى الرقمي."),
+"contact.html":("اتصل بنا","للتواصل والاستفسارات المتعلقة بالموقع والمحتوى، تابع حسابات Pinoqio FF الرسمية."),
+"privacy.html":("سياسة الخصوصية","نtermux-open index.html
+cd ~/rage-return && cp blog.html blog.before-final.html && python - <<'PY'
+from pathlib import Path
+
+p=Path("blog.html")
+s=p.read_text()
+s=s.replace('</nav>', '<a href="articles.html">المقالات</a><a href="tools.html">الأدوات</a><a href="tutorials.html">الشروحات</a><a href="downloads.html">التحميلات</a></nav>')
+p.write_text(s)
+
+pages={
+"about.html":("من نحن","PINOQIO BLOG هو موقع محتوى يهتم بالمقالات والشروحات والأدوات والملفات والمحتوى الرقمي."),
+"contact.html":("اتصل بنا","للتواصل والاستفسارات المتعلقة بالموقع والمحتوى، تابع حسابات Pinoqio FF الرسمية."),
+"privacy.html":("سياسة الخصوصية","نحترم خصوصية الزوار. قد يتم استخدام أدوات التحليل والإعلانات مستقبلًا لتحسين الموقع وقياس الزيارات."),
+"disclaimer.html":("إخلاء المسؤولية","المحتوى المنشور في الموقع مقدم لأغراض تعليمية ومعلوماتية. يتحمل المستخدم مسؤولية استخدام أي ملفات أو أدوات يتم نشرها."),
+"terms.html":("الشروط والأحكام","باستخدام PINOQIO BLOG فإنك توافق على استخدام الموقع بطريقة قانونية وعدم إساءة استخدام المحتوى أو الخدمات.")
+}
+
+nav='''<nav><a href="index.html">الرئيسية</a><a href="blog.html">المدونة</a><a href="articles.html">المقالات</a><a href="tools.html">الأدوات</a><a href="tutorials.html">الشروحات</a><a href="downloads.html">التحميلات</a></nav>'''
+
+for file,(title,text) in pages.items():
+    html=f'''<!doctype html><html lang="ar" dir="rtl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title} | PINOQIO BLOG</title><style>body{{margin:0;background:#070707;color:#fff;font-family:Arial;line-height:1.9}}header{{padding:35px;text-align:center;background:linear-gradient(135deg,#180000,#080808)}}.logo{{font-size:32px;font-weight:900;color:#d4af37;text-shadow:0 0 12px #d4af37,0 0 25px red}}nav{{display:flex;gap:8px;overflow:auto;padding:12px;background:#111}}nav a{{color:#fff;text-decoration:none;padding:9px;white-space:nowrap}}main{{width:92%;max-width:850px;margin:auto;padding:40px 0}}h1{{color:#d4af37}}.box{{background:#111;border:1px solid #292929;border-radius:15px;padding:25px}}footer{{text-align:center;padding:35px;color:#666}}</style><link rel="stylesheet" href="assets/css/neon.css"></head><body><header><div class="logo">PINOQIO BLOG</div></header>{nav}<main><h1>{title}</h1><div class="box"><p>{text}</p><p>© 2026 PINOQIO BLOG</p></div></main><footer>PINOQIO BLOG</footer></body></html>'''
+    Path(file).write_text(html)
+
+print("PINOQIO BLOG جاهز")
+PY<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PINOQIO BLOG</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#070707;color:#fff;font-family:Arial,sans-serif}
+header{padding:35px 20px;text-align:center;background:linear-gradient(135deg,#180000,#080808)}
+.logo{font-size:35px;font-weight:900;color:#d4af37;text-shadow:0 0 12px #d4af37,0 0 25px red}
+nav{display:flex;gap:8px;overflow:auto;padding:12px;background:#111}
+nav a{color:#fff;text-decoration:none;padding:10px 14px;white-space:nowrap}
+.container{width:92%;max-width:1000px;margin:auto}
+.search{width:100%;padding:15px;margin:25px 0;background:#111;border:1px solid #333;border-radius:10px;color:#fff;font-size:16px}
+h1,h2{color:#d4af37}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+.card{padding:22px;background:#111;border:1px solid #292929;border-radius:15px}
+.card h2{margin-top:0}
+.card p{color:#bbb}
+.btn{display:inline-block;margin-top:10px;padding:11px 16px;background:#e71919;color:#fff;text-decoration:none;border-radius:8px}
+.socials{display:flex;gap:10px;flex-wrap:wrap;margin:25px 0}
+.socials a{padding:12px;background:#151515;border:1px solid #333;color:#fff;text-decoration:none;border-radius:9px}
+footer{text-align:center;padding:35px;color:#666}
+@media(max-width:650px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">PINOQIO BLOG</div>
+<p>Gaming • Tools • Tutorials • Downloads</p>
+</header>
+
+<nav>
+<a href="index.html">الرئيسية</a>
+<a href="blog.html">المدونة</a><a href="articles.html">المقالات</a>
+<a href="tools.html">الأدوات</a>
+<a href="tutorials.html">الشروحات</a>
+<a href="downloads.html">التحميلات</a>
+</nav>
+
+<main class="container">
+
+<input class="search" id="search" placeholder="🔎 ابحث في الموقع...">
+
+<h1>🔥 أحدث المحتوى</h1>
+
+<div class="grid" id="content">
+
+<div class="card">
+<h2>👋 أهلًا بك في PINOQIO BLOG</h2>
+<p>
+أول مقال في الموقع والتعريف بفكرة PINOQIO BLOG
+والمحتوى الذي سيضاف إليه.
+</p>
+<a class="btn" href="posts/first-article.html">اقرأ المقال ←</a>
+</div>
+
+<div class="card">
+<h2>📚 المقالات</h2>
+<p>شروحات ومقالات منظمة داخل الموقع.</p>
+<a class="btn" href="tutorials.html">استكشف</a>
+</div>
+
+<div class="card">
+<h2>🛠️ الأدوات والملفات</h2>
+<p>أدوات وملفات، ولكل ملف صفحة مستقلة عند إضافته.</p>
+<a class="btn" href="tools.html">استكشف</a>
+</div>
+
+<div class="card">
+<h2>📥 التحميلات</h2>
+<p>صفحات تحميل منظمة مع تفاصيل كل ملف.</p>
+<a class="btn" href="downloads.html">فتح التحميلات</a>
+</div>
+
+</div>
+
+<h2>🔥 تابع Pinoqio FF</h2>
+
+<div class="socials">
+<a href="https://www.youtube.com/@PinoqioFF" target="_blank">YouTube</a>
+<a href="https://www.tiktok.com/@pinoqioff" target="_blank">TikTok</a>
+<a href="https://www.instagram.com/pinoqioff" target="_blank">Instagram</a>
+<a href="https://www.facebook.com/profile.php?id=61594352493188" target="_blank">Facebook</a>
+</div>
+
+</main>
+
+<footer>
+© 2026 PINOQIO BLOG
+</footer>
+
+<script>
+document.getElementById("search").addEventListener("input",function(){
+let q=this.value.toLowerCase();
+document.querySelectorAll(".card").forEach(card=>{
+card.style.display=card.innerText.toLowerCase().includes(q)?"block":"none";
+});
+});
+</script>
+
+</body>
+</html><!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PINOQIO BLOG</title>
+<style>
+body{margin:0;background:#070707;color:#fff;font-family:Arial}
+header{padding:35px 20px;text-align:center;background:linear-gradient(135deg,#180000,#080808)}
+.logo{font-size:35px;font-weight:900;color:#d4af37;text-shadow:0 0 12px #d4af37,0 0 25px red}
+.container{width:90%;max-width:1000px;margin:auto}
+nav{display:flex;gap:10px;overflow:auto;padding:12px;background:#111}
+nav a{color:#fff;text-decoration:none;padding:10px 15px;white-space:nowrap}
+h1,h2{color:#d4af37}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+.card{padding:20px;background:#111;border:1px solid #292929;border-radius:15px}
+.card a{display:inline-block;margin-top:10px;padding:10px 15px;background:#e71919;color:#fff;text-decoration:none;border-radius:8px}
+.search{width:100%;padding:14px;margin:25px 0;background:#111;border:1px solid #333;border-radius:10px;color:#fff}
+.socials{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}
+.socials a{padding:12px;background:#151515;border:1px solid #333;color:#fff;text-decoration:none;border-radius:9px}
+footer{text-align:center;padding:35px;color:#666}
+@media(max-width:650px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">PINOQIO BLOG</div>
+<p>Gaming • Tools • Tutorials • Downloads</p>
+</header>
+
+<nav>
+<a href="index.html">الرئيسية</a>
+<a href="blog.html">المدونة</a><a href="articles.html">المقالات</a>
+<a href="tools.html">الأدوات</a>
+<a href="tutorials.html">الشروحات</a>
+<a href="downloads.html">التحميلات</a>
+</nav>
+
+<main class="container">
+
+<input class="search" id="search" placeholder="🔎 ابحث في الموقع...">
+
+<h1>أحدث المحتوى</h1>
+
+<div class="grid" id="content">
+
+<div class="card">
+<h2>📚 المقالات</h2>
+<p>شروحات ومحتوى منظم داخل PINOQIO BLOG.</p>
+<a href="tutorials.html">استكشف</a>
+</div>
+
+<div class="card">
+<h2>🛠️ الملفات والأدوات</h2>
+<p>ملفات وأدوات، وكل ملف يمكن أن يكون له صفحة مستقلة.</p>
+<a href="tools.html">استكشف</a>
+</div>
+
+<div class="card">
+<h2>📥 التحميلات</h2>
+<p>صفحات تحميل منظمة مع تفاصيل كل ملف.</p>
+<a href="downloads.html">فتح مركز التحميل</a>
+</div>
+
+<div class="card">
+<h2>🎮 المحتوى</h2>
+<p>محتوى الألعاب والتقنية داخل تصنيفات منفصلة.</p>
+<a href="free-fire.html">استكشف</a>
+</div>
+
+</div>
+
+<h2>تابع Pinoqio FF 🔥</h2>
+
+<div class="socials">
+<a href="https://www.youtube.com/@PinoqioFF" target="_blank">YouTube</a>
+<a href="https://www.tiktok.com/@pinoqioff" target="_blank">TikTok</a>
+<a href="https://www.instagram.com/pinoqioff" target="_blank">Instagram</a>
+<a href="https://www.facebook.com/profile.php?id=61594352493188" target="_blank">Facebook</a>
+</div>
+
+</main>
+
+<footer>© 2026 PINOQIO BLOG</footer>
+
+<script>
+document.getElementById('search').addEventListener('input',function(){
+let q=this.value.toLowerCase();
+document.querySelectorAll('.card').forEach(x=>{
+x.style.display=x.innerText.toLowerCase().includes(q)?'block':'none';
+});
+});
+</script>
+
+</body>
+</html>

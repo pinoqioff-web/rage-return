@@ -1,0 +1,98 @@
+:root{
+--bg:#050505;--purple:#a855f7;--gold:#ffd84d;--red:#ff1744;--white:#fff;
+}
+html{background:var(--bg)}
+body{
+background:
+radial-gradient(circle at 15% 10%,rgba(168,85,247,.16),transparent 30%),
+radial-gradient(circle at 85% 20%,rgba(255,23,68,.13),transparent 30%),
+radial-gradient(circle at 50% 90%,rgba(255,216,77,.10),transparent 35%),
+#050505!important;
+color:#fff!important;
+}
+.logo,h1,h2,h3{
+animation:neonText 4s ease-in-out infinite alternate;
+}
+a,.btn,.download{
+transition:.3s ease;
+}
+a:hover,.btn:hover,.download:hover{
+transform:translateY(-2px) scale(1.02);
+filter:brightness(1.35);
+text-shadow:0 0 8px currentColor,0 0 18px currentColor;
+}
+.btn,.download{
+border:1px solid rgba(255,255,255,.25)!important;
+box-shadow:0 0 8px rgba(168,85,247,.35),0 0 18px rgba(255,23,68,.2);
+animation:buttonGlow 3s ease-in-out infinite alternate;
+}
+.box,.hero{
+box-shadow:0 0 10px rgba(168,85,247,.18),0 0 25px rgba(255,216,77,.08);
+border-color:rgba(168,85,247,.45)!important;
+}
+@keyframes neonText{
+0%{color:#fff;text-shadow:0 0 5px #fff,0 0 12px #a855f7}
+33%{color:#d8b4fe;text-shadow:0 0 6px #a855f7,0 0 20px #a855f7}
+66%{color:#ffd84d;text-shadow:0 0 6px #ffd84d,0 0 20px #ffd84d}
+100%{color:#ff6b81;text-shadow:0 0 6px #ff1744,0 0 20px #ff1744}
+}
+@keyframes buttonGlow{
+0%{box-shadow:0 0 7px rgba(168,85,247,.35)}
+50%{box-shadow:0 0 15px rgba(255,216,77,.45)}
+100%{box-shadow:0 0 18px rgba(255,23,68,.45)}
+}
+
+/* PINOQIO 24-COLOR NEON 24/7 */
+:root{
+--c1:#FF1744;--c2:#FF2D55;--c3:#FF1493;--c4:#FF00AA;
+--c5:#E040FB;--c6:#A855F7;--c7:#7C3AED;--c8:#6366F1;
+--c9:#3B82F6;--c10:#00BFFF;--c11:#00FFFF;--c12:#00E5FF;
+--c13:#00FF88;--c14:#39FF14;--c15:#A3FF12;--c16:#FFF700;
+--c17:#FFD700;--c18:#FFB000;--c19:#FF8C00;--c20:#FF6D00;
+--c21:#CD7F32;--c22:#C0C0C0;--c23:#FFFFFF;--c24:#00FFD5;
+}
+
+p,h1,h2,h3,h4,h5,h6,.logo,.tag,.social,.btn,.download{
+animation:pinRainbow 24s linear infinite;
+}
+
+@keyframes pinRainbow{
+0%{color:var(--c1);text-shadow:0 0 6px var(--c1),0 0 18px var(--c1)}
+4.16%{color:var(--c2);text-shadow:0 0 6px var(--c2),0 0 18px var(--c2)}
+8.33%{color:var(--c3);text-shadow:0 0 6px var(--c3),0 0 18px var(--c3)}
+12.5%{color:var(--c4);text-shadow:0 0 6px var(--c4),0 0 18px var(--c4)}
+16.66%{color:var(--c5);text-shadow:0 0 6px var(--c5),0 0 18px var(--c5)}
+20.83%{color:var(--c6);text-shadow:0 0 6px var(--c6),0 0 18px var(--c6)}
+25%{color:var(--c7);text-shadow:0 0 6px var(--c7),0 0 18px var(--c7)}
+29.16%{color:var(--c8);text-shadow:0 0 6px var(--c8),0 0 18px var(--c8)}
+33.33%{color:var(--c9);text-shadow:0 0 6px var(--c9),0 0 18px var(--c9)}
+37.5%{color:var(--c10);text-shadow:0 0 6px var(--c10),0 0 18px var(--c10)}
+41.66%{color:var(--c11);text-shadow:0 0 6px var(--c11),0 0 18px var(--c11)}
+45.83%{color:var(--c12);text-shadow:0 0 6px var(--c12),0 0 18px var(--c12)}
+50%{color:var(--c13);text-shadow:0 0 6px var(--c13),0 0 18px var(--c13)}
+54.16%{color:var(--c14);text-shadow:0 0 6px var(--c14),0 0 18px var(--c14)}
+58.33%{color:var(--c15);text-shadow:0 0 6px var(--c15),0 0 18px var(--c15)}
+62.5%{color:var(--c16);text-shadow:0 0 6px var(--c16),0 0 18px var(--c16)}
+66.66%{color:var(--c17);text-shadow:0 0 6px var(--c17),0 0 18px var(--c17)}
+70.83%{color:var(--c18);text-shadow:0 0 6px var(--c18),0 0 18px var(--c18)}
+75%{color:var(--c19);text-shadow:0 0 6px var(--c19),0 0 18px var(--c19)}
+79.16%{color:var(--c20);text-shadow:0 0 6px var(--c20),0 0 18px var(--c20)}
+83.33%{color:var(--c21);text-shadow:0 0 6px var(--c21),0 0 18px var(--c21)}
+87.5%{color:var(--c22);text-shadow:0 0 6px var(--c22),0 0 18px var(--c22)}
+91.66%{color:var(--c23);text-shadow:0 0 6px var(--c23),0 0 18px var(--c23)}
+95.83%{color:var(--c24);text-shadow:0 0 6px var(--c24),0 0 18px var(--c24)}
+100%{color:var(--c1);text-shadow:0 0 6px var(--c1),0 0 18px var(--c1)}
+}
+
+.card,.social,.box,.hero{
+animation:pinBorder 24s linear infinite;
+}
+
+@keyframes pinBorder{
+0%,100%{border-color:var(--c1);box-shadow:0 0 12px var(--c1)}
+20%{border-color:var(--c6);box-shadow:0 0 14px var(--c6)}
+40%{border-color:var(--c11);box-shadow:0 0 14px var(--c11)}
+60%{border-color:var(--c14);box-shadow:0 0 14px var(--c14)}
+80%{border-color:var(--c17);box-shadow:0 0 14px var(--c17)}
+90%{border-color:var(--c3);box-shadow:0 0 14px var(--c3)}
+}
