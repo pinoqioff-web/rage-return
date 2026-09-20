@@ -9,14 +9,38 @@
 </style>
 <link rel="stylesheet" href="assets/css/neon.css"></head>
 <body>
-<div class="salawat-led">صلِّ على النبي ﷺ</div>
+<div class="salawat-led">
+<span>صلِّ على النبي ﷺ</span>
+</div>
 <style>
 .salawat-led{
-position:relative;z-index:99999;
-display:block;margin:20px auto;padding:10px;
-text-align:center;font-weight:bold;color:#d4af37;
-background:#111;border:1px solid #d4af37;border-radius:10px;
-box-shadow:0 0 12px #d4af3766;
+position:relative;
+z-index:99999;
+width:min(92%,600px);
+margin:14px auto;
+padding:12px 18px;
+text-align:center;
+overflow:hidden;
+border:1px solid #ffd700;
+border-radius:12px;
+background:linear-gradient(90deg,#080808,#241900,#080808);
+box-shadow:0 0 8px #ffd700,0 0 22px #ff303055;
+}
+.salawat-led span{
+display:inline-block;
+font-size:24px;
+font-weight:900;
+color:#fff;
+white-space:nowrap;
+animation:salawatMove 3s ease-in-out infinite, salawatGlow 1.1s ease-in-out infinite alternate;
+}
+@keyframes salawatMove{
+0%,100%{transform:translateX(-22px)}
+50%{transform:translateX(22px)}
+}
+@keyframes salawatGlow{
+from{text-shadow:0 0 4px #fff,0 0 9px #ffd700}
+to{text-shadow:0 0 8px #fff,0 0 18px #ffd700,0 0 30px #ff3030}
 }
 </style>
 
@@ -69,8 +93,6 @@ style="display:inline-flex;width:280px;height:158px;align-items:center;justify-c
 <p>مكان جاهز للإعلانات مستقبلًا.</p>
 </div>
 </section>
-</body>
-</html>
 <section id="youtube">
 <h2>Latest Videos</h2>
 <div class="youtube-box">
@@ -79,3 +101,6 @@ WATCH Pinoqio FF ON YOUTUBE →
 </a>
 </div>
 </section>
+
+</body>
+</html>
