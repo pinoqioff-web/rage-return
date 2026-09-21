@@ -4,95 +4,39 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>التحميلات | PINOQIO BLOG</title>
-
 <style>
 *{box-sizing:border-box}
-body{margin:0;background:#070707;color:#fff;font-family:Arial,sans-serif}
-header{padding:35px 20px;text-align:center;background:linear-gradient(135deg,#180000,#080808)}
-.logo{font-size:34px;font-weight:900;color:#d4af37;text-shadow:0 0 12px #d4af37,0 0 25px red}
+body{margin:0;background:#080808;color:#fff;font-family:Arial,sans-serif}
+header{text-align:center;padding:40px;background:linear-gradient(135deg,#180000,#080808)}
+.logo{font-size:34px;font-weight:900;color:#d4af37}
+header p{color:#aaa}
 nav{display:flex;gap:8px;overflow:auto;padding:12px;background:#111}
 nav a{color:#fff;text-decoration:none;padding:10px 14px;white-space:nowrap}
 .container{width:92%;max-width:1000px;margin:auto}
 h1{color:#d4af37;margin-top:35px}
-.search{width:100%;padding:15px;margin:20px 0;background:#111;border:1px solid #333;border-radius:10px;color:#fff;font-size:16px}
-.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
-.card{background:#111;border:1px solid #292929;border-radius:15px;padding:22px}
-.card h2{color:#d4af37;margin-top:0}
-.card p{color:#bbb}
-.info{color:#777;font-size:13px}
-.btn{display:block;text-align:center;margin-top:15px;padding:13px;background:#e71919;color:#fff;text-decoration:none;border-radius:9px;font-weight:bold}
-footer{text-align:center;padding:35px;color:#666;margin-top:30px}
-@media(max-width:650px){.grid{grid-template-columns:1fr}}
+.intro{color:#aaa;line-height:1.8}
+.empty{margin-top:25px;background:#111;border:1px solid #292929;border-radius:15px;padding:30px;text-align:center;color:#aaa}
+footer{text-align:center;padding:35px;color:#666;margin-top:40px}
 </style>
-<link rel="stylesheet" href="assets/css/neon.css"></head>
-
+</head>
 <body>
-
 <header>
 <div class="logo">PINOQIO BLOG</div>
-<p>الملفات والأدوات والتحميلات</p>
+<p>مركز الملفات والموارد</p>
 </header>
-
 <nav>
-<a href='/'>الرئيسية</a>
-<a href='/blog'>المدونة</a>
-<a href='/articles'>المقالات</a>
-<a href='/tools'>الأدوات</a>
-<a href='/tutorials'>الشروحات</a>
-<a href='/downloads'>التحميلات</a>
+<a href="/">الرئيسية</a>
+<a href="/blog">المدونة</a>
+<a href="/articles">المقالات</a>
+<a href="/tools">الأدوات</a>
+<a href="/tutorials">الشروحات</a>
+<a href="/downloads">التحميلات</a>
 </nav>
-
 <main class="container">
-
-<h1>📥 مركز التحميلات</h1>
-
-<input
-class="search"
-id="search"
-placeholder="🔎 ابحث عن ملف..."
->
-
-<div class="grid" id="downloads">
-
-<div class="card">
-
-<h2>📦 أول ملف</h2>
-
-<p>
-صفحة تحميل تجريبية. هنا هنضيف الملفات الحقيقية
-مع شرح كامل لكل ملف قبل التحميل.
-</p>
-
-<div class="info">
-الحالة: جاهز للإضافة
-</div>
-
-<a class="btn" href="#">
-⬇️ صفحة التحميل
-</a>
-
-</div>
-
-</div>
-
+<h1>📥 التحميلات</h1>
+<p class="intro">هنا ستظهر الملفات الحقيقية المتاحة للتحميل مع شرح وتفاصيل كل ملف.</p>
+<div class="empty">📦 لا توجد ملفات متاحة حاليًا.</div>
 </main>
-
-<footer>
-© 2026 PINOQIO BLOG
-</footer>
-
-<script>
-document.getElementById("search").addEventListener("input",function(){
-let q=this.value.toLowerCase();
-
-document.querySelectorAll(".card").forEach(card=>{
-card.style.display=
-card.innerText.toLowerCase().includes(q)
-?"block"
-:"none";
-});
-});
-</script>
-
+<footer>© 2026 PINOQIO BLOG</footer>
 </body>
 </html>
