@@ -114,10 +114,16 @@ window.addEventListener("load", function () {
   setTimeout(function () {
     var slot = document.getElementById("ad-slot");
     if (!slot) return;
+
     var s = document.createElement("script");
     s.async = true;
     s.setAttribute("data-cfasync", "false");
     s.src = "https://hatsharmonyarab.com/e21061f505b76c30283237b0499cbd6d/invoke.js";
+
+    s.onerror = function () {
+      slot.style.display = "none";
+    };
+
     slot.appendChild(s);
   }, 300);
 });
