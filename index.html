@@ -1,130 +1,171 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="PINOQIO BLOG — مقالات، شروحات، أدوات، تحميلات ومحتوى Pinoqio FF.">
+<meta property="og:title" content="PINOQIO BLOG">
+<meta property="og:description" content="مقالات، شروحات، أدوات، تحميلات ومحتوى Pinoqio FF.">
+<meta property="og:type" content="website">
 <title>PINOQIO BLOG</title>
 <style>
-*{box-sizing:border-box}body{margin:0;background:#070707;color:#fff;font-family:Arial,sans-serif}header{min-height:100vh;display:flex;align-items:center;background:radial-gradient(circle at 80% 40%,#90000055,transparent 35%),linear-gradient(135deg,#050505,#190000,#050505)}.box{width:90%;max-width:1000px;margin:auto}.logo{position:absolute;top:25px;font-weight:900;letter-spacing:4px;color:#d4af37;text-shadow:0 0 5px #d4af37,0 0 12px #d4af37,0 0 25px #f00;animation:neon 1.8s ease-in-out infinite alternate,shine 3s linear infinite}.logo::first-letter{color:#d4af37}@keyframes shine{0%,100%{filter:brightness(1)}50%{filter:brightness(1.8)}}@keyframes neon{from{text-shadow:0 0 5px #d4af37,0 0 10px #d4af37,0 0 18px #f00}to{text-shadow:0 0 8px #d4af37,0 0 20px #d4af37,0 0 35px #f00}}.tag{color:#f22;letter-spacing:3px;font-size:12px}h1{font-size:clamp(65px,16vw,150px);line-height:.8;margin:25px 0}h1 span{color:#f11}p{color:#aaa;font-size:17px;line-height:1.7}.btn{display:inline-block;margin:15px 8px 0 0;padding:14px 20px;border-radius:8px;background:#e71919;color:#fff;text-decoration:none;font-weight:bold}.btn.dark{background:#151515;border:1px solid #333}section{padding:70px 5%;border-top:1px solid #222}h2{font-size:35px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{background:#111;border:1px solid #292929;border-radius:14px;overflow:hidden}.thumb{aspect-ratio:16/9;display:grid;place-items:center;background:linear-gradient(135deg,#300,#080808);color:#f22;font-size:40px;font-weight:bold}.info{padding:16px}.socials{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.social{padding:22px;background:#111;border:1px solid #292929;border-radius:10px;text-align:center;color:white;text-decoration:none;font-weight:bold}footer{text-align:center;padding:40px;color:#666}@media(max-width:700px){.cards{grid-template-columns:1fr}.socials{grid-template-columns:1fr 1fr}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#070707;color:#fff;font-family:Arial,sans-serif}
+a{text-decoration:none}
+header{min-height:88vh;display:flex;align-items:center;background:radial-gradient(circle at 80% 40%,#90000055,transparent 35%),linear-gradient(135deg,#050505,#190000,#050505)}
+.box{width:90%;max-width:1050px;margin:auto}
+.logo{font-weight:900;letter-spacing:4px;color:#d4af37;text-shadow:0 0 5px #d4af37,0 0 12px #d4af37,0 0 25px #f00}
+.hero{text-align:center;margin-top:35px}
+.hero h1{font-size:clamp(55px,14vw,120px);line-height:.85;margin:25px 0;color:#fff}
+.hero h1 span{color:#f11}
+.hero p{color:#aaa;font-size:17px;line-height:1.7}
+.btn{display:inline-block;margin:8px 4px;padding:13px 19px;border-radius:8px;background:#e71919;color:#fff;font-weight:bold;border:1px solid #e71919}
+.btn.dark{background:#151515;border-color:#333}
+section{padding:55px 5%;border-top:1px solid #222}
+h2{font-size:32px;color:#d4af37;margin-top:0}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{background:#111;border:1px solid #292929;border-radius:15px;padding:22px}
+.card h3{margin-top:0}
+.card p{color:#aaa;line-height:1.7}
+.socials{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.social{padding:18px 10px;background:#111;border:1px solid #292929;border-radius:10px;text-align:center;color:#fff;font-weight:bold}
+.video{max-width:600px;margin:25px auto;text-align:center}
+.video a{display:flex;height:180px;align-items:center;justify-content:center;border:2px solid #d4af37;border-radius:15px;background:linear-gradient(135deg,#260000,#080808);box-shadow:0 0 15px #d4af37,0 0 25px #f00}
+.play{width:65px;height:65px;border-radius:50%;background:#d4af37;color:#000;display:grid;place-items:center;font-size:30px;box-shadow:0 0 20px #d4af37}
+footer{text-align:center;padding:35px;color:#666}
+.salawat-led{width:100%;height:72px;margin:0;display:flex;align-items:center;justify-content:center;overflow:hidden;background:linear-gradient(90deg,#050505,#241b00,#050505);border-top:2px solid #ffd700;border-bottom:2px solid #ffd700;box-shadow:0 0 12px #ffd700,0 0 30px #ff303055}
+.salawat-led span{display:inline-block;white-space:nowrap;font-size:clamp(28px,8vw,52px);font-weight:900;color:#fff;text-shadow:0 0 5px #fff,0 0 12px #ffd700,0 0 25px #ff3030;animation:salawatLED 3.2s ease-in-out infinite,salawatGlow 1s ease-in-out infinite alternate}
+@keyframes salawatLED{0%{transform:translateX(-45px)}50%{transform:translateX(45px)}100%{transform:translateX(-45px)}}
+@keyframes salawatGlow{0%{opacity:.65}100%{opacity:1}}
+@media(max-width:700px){.cards{grid-template-columns:1fr}.socials{grid-template-columns:1fr 1fr}header{min-height:auto;padding:55px 0}.hero h1{font-size:60px}.video a{height:150px}}
 </style>
-<link rel="stylesheet" href="assets/css/neon.css"></head>
+<link rel="stylesheet" href="assets/css/neon.css">
+</head>
 <body>
-<div class="salawat-led"><span>صَلِّ عَلَى النَّبِيِّ ﷺ</span></div>
-<style>
-.salawat-led{
-width:100%;
-height:72px;
-margin:18px 0;
-display:flex;
-align-items:center;
-justify-content:center;
-overflow:hidden;
-background:linear-gradient(90deg,#050505,#241b00,#050505);
-border-top:2px solid #ffd700;
-border-bottom:2px solid #ffd700;
-box-shadow:0 0 12px #ffd700,0 0 30px #ff303055;
-}
-.salawat-led span{
-display:inline-block;
-white-space:nowrap;
-font-size:clamp(28px,8vw,52px);
-font-weight:900;
-color:#fff;
-text-shadow:0 0 5px #fff,0 0 12px #ffd700,0 0 25px #ff3030;
-animation:salawatLED 3.2s ease-in-out infinite, salawatGlow 1s ease-in-out infinite alternate;
-}
-@keyframes salawatLED{
-0%{transform:translateX(-45px)}
-50%{transform:translateX(45px)}
-100%{transform:translateX(-45px)}
-}
-@keyframes salawatGlow{
-0%{opacity:.65;text-shadow:0 0 4px #fff,0 0 8px #ffd700}
-100%{opacity:1;text-shadow:0 0 8px #fff,0 0 18px #ffd700,0 0 35px #ff3030}
-}
-@media(max-width:600px){
-.salawat-led{height:82px}
-.salawat-led span{font-size:31px}
-}
-</style>
 
-<header><div class="box">
-<div class="logo">PINOQIO BLOG</div><div style="margin-top:120px;text-align:center">
-<a href="https://www.youtube.com/shorts/fOFdSm9Z4KY" target="_blank" rel="noopener"
-style="display:inline-flex;width:280px;height:158px;align-items:center;justify-content:center;border:2px solid #d4af37;border-radius:15px;background:linear-gradient(135deg,#260000,#080808);text-decoration:none;box-shadow:0 0 15px #d4af37,0 0 25px #f00">
-<span style="width:60px;height:60px;border-radius:50%;background:#d4af37;color:#000;display:grid;place-items:center;font-size:30px;box-shadow:0 0 20px #d4af37">▶</span>
-</a>
-<div style="margin-top:10px;color:#d4af37;font-weight:bold">🔥 فيديو اليوم</div>
+<div class="salawat-led"><span>صَلِّ عَلَى النَّبِيِّ ﷺ</span></div>
+
+<header>
+<div class="box">
+<div class="logo">PINOQIO BLOG</div>
+
+<div class="hero">
+<h1>PINOQIO <span>BLOG</span></h1>
+<p>محتوى، مقالات، شروحات، أدوات وتحميلات — كل شيء في مكان واحد.</p>
+
+<a class="btn" href="/articles">📚 المقالات</a>
+<a class="btn dark" href="/tools">🛠️ الأدوات</a>
+<a class="btn dark" href="/tutorials">🎓 الشروحات</a>
+<a class="btn dark" href="/downloads">📥 التحميلات</a>
 </div>
-<a class='btn dark' href='/blog'>PINOQIO BLOG</a><a class='btn dark' href='/articles'>المقالات</a><a class='btn dark' href='/downloads'>التحميلات</a></div></header>
-</div></div></section>
-<section id="socials"><div class="box"><h2>Socials</h2><div class="socials">
+</div>
+</header>
+
+<section>
+<div class="box">
+<h2>🔥 فيديو اليوم</h2>
+<div class="video">
+<a href="https://www.youtube.com/shorts/fOFdSm9Z4KY" target="_blank" rel="noopener">
+<span class="play">▶</span>
+</a>
+<p>شاهد أحدث محتوى Pinoqio FF على YouTube</p>
+</div>
+</div>
+</section>
+
+<section>
+<div class="box">
+<h2>🔥 أحدث المحتوى</h2>
+<div class="cards">
+
+<div class="card">
+<h3>📖 أحدث مقال</h3>
+<p>أهلًا بك في PINOQIO BLOG — تعرف على فكرة الموقع والمحتوى القادم.</p>
+<a class="btn" href="/posts/first-article">اقرأ المقال ←</a>
+</div>
+
+<div class="card">
+<h3>📥 التحميلات</h3>
+<p>مساحة مخصصة للملفات والتحميلات الحقيقية التي سيتم إضافتها للموقع.</p>
+<a class="btn dark" href="/downloads">مركز التحميلات ←</a>
+</div>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="box">
+<h2>📚 أقسام الموقع</h2>
+<div class="cards">
+
+<a class="card" href="/articles">
+<h3>📚 المقالات</h3>
+<p>كل المقالات والمحتوى المكتوب.</p>
+</a>
+
+<a class="card" href="/tools">
+<h3>🛠️ الأدوات</h3>
+<p>أدوات وتقنيات مفيدة.</p>
+</a>
+
+<a class="card" href="/tutorials">
+<h3>🎓 الشروحات</h3>
+<p>شروحات ودروس خطوة بخطوة.</p>
+</a>
+
+<a class="card" href="/downloads">
+<h3>📥 التحميلات</h3>
+<p>الملفات والموارد المتاحة للتحميل.</p>
+</a>
+
+</div>
+</div>
+</section>
+
+<section>
+<div class="box">
+<h2>🔥 Pinoqio FF</h2>
+<p style="color:#aaa;line-height:1.8">تابع المحتوى الجديد والفيديوهات والتحديثات على حسابات Pinoqio FF.</p>
+
+<div class="socials">
 <a class="social" href="https://www.tiktok.com/@pinoqioff" target="_blank" rel="noopener">TikTok</a>
 <a class="social" href="https://youtube.com/@pinoqioff" target="_blank" rel="noopener">YouTube</a>
 <a class="social" href="https://www.instagram.com/pinoqioff" target="_blank" rel="noopener">Instagram</a>
 <a class="social" href="https://www.facebook.com/profile.php?id=61594352493188" target="_blank" rel="noopener">Facebook Page</a>
 <a class="social" href="https://www.facebook.com/profile.php?id=61588395358945" target="_blank" rel="noopener">Facebook Profile</a>
-</div></div></section>
-<section><div class="box"><h2>About PINOQIO BLOG</h2><p>You can come back stronger.</p></div></section>
-<footer>© 2026 PINOQIO BLOG</footer>
-<section style="margin:30px auto;padding:20px;max-width:900px;text-align:center;background:#111;border:1px solid #292929;border-radius:15px"><h2 style="color:#d4af37">🔥 أحدث مقال</h2><p>أهلًا بك في PINOQIO BLOG — تعرف على فكرة الموقع والمحتوى القادم.</p><a href='/posts/first-article' style='display:inline-block;padding:12px 20px;background:#e71919;color:#fff;text-decoration:none;border-radius:9px'>اقرأ المقال ←</a></section>
-
-<section style="max-width:1000px;margin:35px auto;padding:0 16px">
-<h2 style="color:#d4af37">🔥 أحدث المقالات</h2>
-<div style="background:#111;border:1px solid #292929;border-radius:15px;padding:20px;margin:15px 0">
-<h3>أهلًا بك في PINOQIO BLOG</h3>
-<p>تعرف على فكرة الموقع والمحتوى القادم.</p>
-<a href='/posts/first-article' style='display:inline-block;padding:11px 18px;background:#e71919;color:#fff;text-decoration:none;border-radius:9px'>اقرأ المقال ←</a>
 </div>
-
-<h2 style="color:#d4af37;margin-top:35px">📥 أحدث الملفات</h2>
-<div style="background:#111;border:1px solid #292929;border-radius:15px;padding:20px;margin:15px 0">
-<h3>أول ملف في PINOQIO BLOG</h3>
-<p>صفحة الملف والتفاصيل والتحميل.</p>
-<a href='/downloads/first-file' style='display:inline-block;padding:11px 18px;background:#e71919;color:#fff;text-decoration:none;border-radius:9px'>صفحة التحميل ←</a>
-</div>
-
-<h2 style="color:#d4af37;margin-top:35px">📚 أقسام الموقع</h2>
-<div style="display:flex;flex-wrap:wrap;gap:10px">
-<a class='btn dark' href='/articles'>المقالات</a>
-<a class='btn dark' href='/tools'>الأدوات</a>
-<a class='btn dark' href='/tutorials'>الشروحات</a>
-<a class='btn dark' href='/downloads'>التحميلات</a>
-</div>
-
-<div style="margin-top:40px;padding:25px;text-align:center;background:#111;border:1px solid #292929;border-radius:15px">
-
 </div>
 </section>
-<section id="youtube">
-<h2>Latest Videos</h2>
-<div class="youtube-box">
-<a href="https://www.youtube.com/@PinoqioFF" target="_blank">
-WATCH Pinoqio FF ON YOUTUBE →
-</a>
+
+<section>
+<div class="box">
+<h2>ℹ️ عن PINOQIO BLOG</h2>
+<p style="color:#aaa;line-height:1.8">You can come back stronger.</p>
 </div>
 </section>
 
 <div id="ad-slot" style="margin:20px auto;text-align:center;min-height:0">
-  <div id="container-e21061f505b76c30283237b0499cbd6d"></div>
+<div id="container-e21061f505b76c30283237b0499cbd6d"></div>
 </div>
+
 <script>
-window.addEventListener("load", function () {
-  setTimeout(function () {
-    var slot = document.getElementById("ad-slot");
-    if (!slot) return;
-
-    var s = document.createElement("script");
-    s.async = true;
-    s.setAttribute("data-cfasync", "false");
-    s.src = "https://hatsharmonyarab.com/e21061f505b76c30283237b0499cbd6d/invoke.js";
-
-    s.onerror = function () {
-      slot.style.display = "none";
-    };
-
-    slot.appendChild(s);
-  }, 300);
+window.addEventListener("load",function(){
+setTimeout(function(){
+var slot=document.getElementById("ad-slot");
+if(!slot)return;
+var s=document.createElement("script");
+s.async=true;
+s.setAttribute("data-cfasync","false");
+s.src="https://hatsharmonyarab.com/e21061f505b76c30283237b0499cbd6d/invoke.js";
+s.onerror=function(){slot.style.display="none"};
+slot.appendChild(s);
+},300);
 });
-</script></body>
+</script>
+
+<footer>© 2026 PINOQIO BLOG — All Rights Reserved</footer>
+
+</body>
 </html>
