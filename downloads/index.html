@@ -65,21 +65,69 @@ l.parentNode.insertBefore(s, l);
 })({})
 </script>
 
+<a class="btn" href="https://xdabo.com/PINOQIO">⬇️ تحميل الملف</a>
+</div>
+
+</main>
+
+<footer>© 2026 PINOQIO BLOG</footer>
+
+
 <script>
 (function () {
-  var attempts = 0;
-  var maxAttempts = 10;
-  var box = document.querySelector('.ad-container');
+  'use strict';
 
+  var box = document.querySelector('.ad-container');
   if (!box) return;
 
-  var observer = new MutationObserver(function () {
-    if (
+  var start = Date.now();
+  var maxTime = 6000;
+  var adLoaded = false;
+  var warningShown = false;
+
+  function hasAdContent() {
+    return !!(
       box.querySelector('iframe') ||
       box.querySelector('ins') ||
       box.querySelector('[class*="ad"]') ||
-      box.querySelector('[id*="ad"]')
-    ) {
+      box.querySelector('[id*="ad"]') ||
+      box.querySelector('[class*="banner"]') ||
+      box.querySelector('[id*="banner"]')
+    );
+  }
+
+  function showWarning() {
+    if (warningShown || document.querySelector('.ad-block-warning')) return;
+    warningShown = true;
+
+    var w = document.createElement('div');
+    w.className = 'ad-block-warning';
+
+    w.style.cssText =
+      'margin:20px auto;padding:20px;max-width:600px;' +
+      'background:#111;border:1px solid #8b6b3f;' +
+      'border-radius:14px;color:#cd9b55;text-align:center;' +
+      'font-family:Arial,sans-serif;box-shadow:0 0 18px rgba(205,155,85,.2);';
+
+    w.innerHTML =
+      '<div style="font-size:28px">⚠️</div>' +
+      '<b style="font-size:19px">الإعلان لا يظهر</b>' +
+      '<div style="color:#aaa;font-size:15px;line-height:1.8;margin-top:8px">' +
+      'قد يكون DNS أو مانع الإعلانات يمنع تحميل الإعلان.<br>' +
+      'عطّل الحجب لهذا الموقع ثم أعد تحميل الصفحة.' +
+      '</div>' +
+      '<button onclick="location.reload()" style="' +
+      'margin-top:15px;padding:11px 24px;border:0;border-radius:8px;' +
+      'background:#b00000;color:#fff;font-size:15px;cursor:pointer;">' +
+      '🔄 إعادة المحاولة</button>';
+
+    box.parentNode.insertBefore(w, box.nextSibling);
+  }
+
+  /* مراقبة العناصر التي يحقنها نظام الإعلان */
+  var observer = new MutationObserver(function () {
+    if (hasAdContent()) {
+      adLoaded = true;
       observer.disconnect();
     }
   });
@@ -90,59 +138,57 @@ l.parentNode.insertBefore(s, l);
     attributes: true
   });
 
-  var checker = setInterval(function () {
-    attempts++;
+  /* AdBlock bait */
+  var bait = document.createElement('div');
+  bait.className =
+    'ad ads ad-banner ad-box advertisement sponsored ' +
+    'banner-ad google-ad doubleclick';
+  bait.setAttribute('aria-hidden', 'true');
+  bait.style.cssText =
+    'position:absolute!important;left:-99999px!important;' +
+    'top:-99999px!important;width:10px!important;' +
+    'height:10px!important;pointer-events:none!important;';
 
-    var adElement =
-      box.querySelector('iframe') ||
-      box.querySelector('ins') ||
-      box.querySelector('[class*="ad"]') ||
-      box.querySelector('[id*="ad"]');
+  document.body.appendChild(bait);
 
-    if (adElement) {
-      clearInterval(checker);
+  var timer = setInterval(function () {
+    if (adLoaded || hasAdContent()) {
+      clearInterval(timer);
       observer.disconnect();
+      if (bait.parentNode) bait.remove();
       return;
     }
 
-    if (attempts >= maxAttempts) {
-      clearInterval(checker);
+    var cs = getComputedStyle(bait);
+
+    var baitBlocked =
+      cs.display === 'none' ||
+      cs.visibility === 'hidden' ||
+      cs.opacity === '0' ||
+      bait.offsetWidth === 0 ||
+      bait.offsetHeight === 0;
+
+    if (baitBlocked) {
+      clearInterval(timer);
       observer.disconnect();
-
-      if (document.querySelector('.ad-block-warning')) return;
-
-      var warning = document.createElement('div');
-      warning.className = 'ad-block-warning';
-
-      warning.style.cssText =
-        'margin:20px auto;padding:18px;max-width:600px;' +
-        'background:#111;border:1px solid #8b6b3f;border-radius:14px;' +
-        'color:#cd9b55;text-align:center;font-family:Arial,sans-serif;';
-
-      warning.innerHTML =
-        '<div style="font-size:24px">⚠️</div>' +
-        '<b style="font-size:18px">الإعلان لا يظهر</b>' +
-        '<div style="color:#aaa;font-size:15px;line-height:1.7;margin-top:8px">' +
-        'قد يكون DNS أو مانع الإعلانات يمنع ظهور الإعلان.<br>' +
-        'عطّل الحجب لهذا الموقع ثم أعد تحميل الصفحة.' +
-        '</div>' +
-        '<button onclick="location.reload()" style="' +
-        'margin-top:14px;padding:10px 22px;border:0;border-radius:8px;' +
-        'background:#b00000;color:#fff;font-size:15px;cursor:pointer;">' +
-        '🔄 إعادة المحاولة</button>';
-
-      box.parentNode.insertBefore(warning, box.nextSibling);
+      if (bait.parentNode) bait.remove();
+      showWarning();
+      return;
     }
-  }, 500);
+
+    if (Date.now() - start >= maxTime) {
+      clearInterval(timer);
+      observer.disconnect();
+      if (bait.parentNode) bait.remove();
+
+      if (!adLoaded && !hasAdContent()) {
+        showWarning();
+      }
+    }
+  }, 250);
+
 })();
 </script>
-
-<a class="btn" href="https://xdabo.com/PINOQIO">⬇️ تحميل الملف</a>
-</div>
-
-</main>
-
-<footer>© 2026 PINOQIO BLOG</footer>
 
 </body>
 </html>
