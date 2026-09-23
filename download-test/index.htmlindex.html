@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>تنزيل الملف | PINOQIO</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  min-height:100vh;
+  background:#080b12;
+  color:#fff;
+  font-family:Arial,sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px
+}
+.card{
+  width:100%;
+  max-width:500px;
+  background:#101621;
+  border:1px solid #263246;
+  border-radius:18px;
+  padding:28px;
+  text-align:center;
+  box-shadow:0 0 35px rgba(0,0,0,.45)
+}
+h1{margin-top:0}
+.file{
+  margin:20px 0;
+  padding:18px;
+  background:#080c14;
+  border-radius:12px;
+  color:#ddd
+}
+.btn{
+  display:block;
+  text-decoration:none;
+  padding:14px 18px;
+  margin:12px 0;
+  border-radius:10px;
+  font-weight:bold;
+  color:#fff
+}
+.ad{background:#5b21b6}
+.download{background:#087f5b}
+small{color:#9299a8}
+</style>
+</head>
+
+<body>
+<div class="card">
+
+  <h1>📦 PINOQIO</h1>
+
+  <div class="file">
+    <strong>ملف تجريبي</strong><br>
+    <small>صفحة تنزيل تجريبية</small>
+  </div>
+
+  <a
+    class="btn ad"
+    href="https://hatsharmonyarab.com/d3wur1b1cg?key=4455f1964c073c30758afc0d53bfd184"
+    target="_blank"
+    rel="noopener noreferrer">
+    🔥 شوف الجديد
+  </a>
+
+  <a
+    class="btn download"
+    href="https://xdabo.com/PINOQIO"
+    target="_blank"
+    rel="noopener noreferrer">
+    📥 متابعة التنزيل
+  </a>
+
+  <small>
+    الإعلان منفصل عن رابط التنزيل.
+  </small>
+
+</div>
+</body>
+</html>
+cd ~/rage-return
+mkdir -p download-test
+cat > download-test/index.html <<'EOF'
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>تنزيل الملف | PINOQIO</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:#080b12;color:#fff;font-family:Arial,sans-serif;display:flex;justify-content:center;align-items:center;padding:20px}
+.card{width:100%;max-width:500px;background:#101621;border:1px solid #263246;border-radius:18px;padding:28px;text-align:center;box-shadow:0 0 35px rgba(0,0,0,.45)}
+h1{margin-top:0}.file{margin:20px 0;padding:18px;background:#080c14;border-radius:12px;color:#ddd}
+.btn{display:block;text-decoration:none;padding:14px 18px;margin:12px 0;border-radius:10px;font-weight:bold;color:#fff}
+.ad{background:#5b21b6}.download{background:#087f5b}small{color:#9299a8}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>📦 PINOQIO</h1>
+<div class="file"><strong>ملف تجريبي</strong><br><small>صفحة تنزيل تجريبية</small></div>
+<a class="btn ad" href="https://hatsharmonyarab.com/d3wur1b1cg?key=4455f1964c073c30758afc0d53bfd184" target="_blank" rel="noopener noreferrer">🔥 شوف الجديد</a>
+<a class="btn download" href="https://xdabo.com/PINOQIO" target="_blank" rel="noopener noreferrer">📥 متابعة التنزيل</a>
+<small>الإعلان منفصل عن رابط التنزيل.</small>
+</div>
+</body>
+</html>
+EOF
+git add download-test/index.html
+git commit -m "Add download test page"
+git push origin main
+
