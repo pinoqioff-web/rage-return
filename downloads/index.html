@@ -65,7 +65,9 @@ l.parentNode.insertBefore(s, l);
 })({})
 </script>
 
+<div id="download-area">
 <a class="btn" href="https://xdabo.com/PINOQIO">⬇️ تحميل الملف</a>
+</div>
 </div>
 
 </main>
@@ -181,8 +183,14 @@ l.parentNode.insertBefore(s, l);
     document.head.appendChild(style);
 
     var parent = document.querySelector('.ad-container');
+    var downloadArea = document.querySelector('#download-area');
+
     if (parent) {
-      parent.appendChild(warning);
+      if (downloadArea) {
+        parent.insertBefore(warning, downloadArea);
+      } else {
+        parent.appendChild(warning);
+      }
     }
   }
 
