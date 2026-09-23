@@ -69,6 +69,22 @@ l.parentNode.insertBefore(s, l);
 (function () {
   var attempts = 0;
   var maxAttempts = 10;
+  var adScriptLoaded = false;
+  var adScriptFailed = false;
+
+  var scripts = document.querySelectorAll('script');
+
+  scripts.forEach(function (script) {
+    if (script.src && script.src.indexOf('shameful-farm.com') !== -1) {
+      script.addEventListener('load', function () {
+        adScriptLoaded = true;
+      });
+
+      script.addEventListener('error', function () {
+        adScriptFailed = true;
+      });
+    }
+  });
 
   var checker = setInterval(function () {
     attempts++;
@@ -77,20 +93,24 @@ l.parentNode.insertBefore(s, l);
 
     if (!box) return;
 
-    var adLoaded =
+    var adElement =
       box.querySelector('iframe') ||
       box.querySelector('ins') ||
-      box.querySelector('[class*="ad"]');
+      box.querySelector('[class*="ad"]') ||
+      box.querySelector('[id*="ad"]');
 
-    if (adLoaded) {
+    if (adScriptLoaded || adElement) {
       clearInterval(checker);
       return;
     }
 
-    if (attempts >= maxAttempts) {
+    if (adScriptFailed || attempts >= maxAttempts) {
       clearInterval(checker);
 
+      if (document.querySelector('.ad-block-warning')) return;
+
       var warning = document.createElement('div');
+      warning.className = 'ad-block-warning';
 
       warning.style.cssText =
         'margin:20px auto;padding:18px;max-width:600px;' +
