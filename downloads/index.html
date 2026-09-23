@@ -50,6 +50,7 @@ footer{color:#555;padding:25px}
   50%{opacity:1}
 }
 </style>
+<div class="ad-container">
 <div class="ad-instruction">✨ اضغط الإعلان ثم ارجع واضغط تحميل <span>↓</span></div>
 <script>
 (function(odb){
@@ -63,6 +64,57 @@ s.referrerPolicy = 'no-referrer-when-downgrade';
 l.parentNode.insertBefore(s, l);
 })({})
 </script>
+
+<script>
+(function () {
+  var attempts = 0;
+  var maxAttempts = 10;
+
+  var checker = setInterval(function () {
+    attempts++;
+
+    var box = document.querySelector('.ad-container');
+
+    if (!box) return;
+
+    var adLoaded =
+      box.querySelector('iframe') ||
+      box.querySelector('ins') ||
+      box.querySelector('[class*="ad"]');
+
+    if (adLoaded) {
+      clearInterval(checker);
+      return;
+    }
+
+    if (attempts >= maxAttempts) {
+      clearInterval(checker);
+
+      var warning = document.createElement('div');
+
+      warning.style.cssText =
+        'margin:20px auto;padding:18px;max-width:600px;' +
+        'background:#111;border:1px solid #8b6b3f;border-radius:14px;' +
+        'color:#cd9b55;text-align:center;font-family:Arial,sans-serif;';
+
+      warning.innerHTML =
+        '<div style="font-size:24px">⚠️</div>' +
+        '<b style="font-size:18px">الإعلان لا يظهر</b>' +
+        '<div style="color:#aaa;font-size:15px;line-height:1.7;margin-top:8px">' +
+        'قد يكون DNS أو مانع الإعلانات يمنع ظهور الإعلان.<br>' +
+        'عطّل الحجب لهذا الموقع ثم أعد تحميل الصفحة.' +
+        '</div>' +
+        '<button onclick="location.reload()" style="' +
+        'margin-top:14px;padding:10px 22px;border:0;border-radius:8px;' +
+        'background:#b00000;color:#fff;font-size:15px;cursor:pointer;">' +
+        '🔄 إعادة المحاولة</button>';
+
+      box.parentNode.insertBefore(warning, box.nextSibling);
+    }
+  }, 500);
+})();
+</script>
+
 <a class="btn" href="https://xdabo.com/PINOQIO">⬇️ تحميل الملف</a>
 </div>
 
