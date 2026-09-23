@@ -69,29 +69,29 @@ l.parentNode.insertBefore(s, l);
 (function () {
   var attempts = 0;
   var maxAttempts = 10;
-  var adScriptLoaded = false;
-  var adScriptFailed = false;
+  var box = document.querySelector('.ad-container');
 
-  var scripts = document.querySelectorAll('script');
+  if (!box) return;
 
-  scripts.forEach(function (script) {
-    if (script.src && script.src.indexOf('shameful-farm.com') !== -1) {
-      script.addEventListener('load', function () {
-        adScriptLoaded = true;
-      });
-
-      script.addEventListener('error', function () {
-        adScriptFailed = true;
-      });
+  var observer = new MutationObserver(function () {
+    if (
+      box.querySelector('iframe') ||
+      box.querySelector('ins') ||
+      box.querySelector('[class*="ad"]') ||
+      box.querySelector('[id*="ad"]')
+    ) {
+      observer.disconnect();
     }
+  });
+
+  observer.observe(box, {
+    childList: true,
+    subtree: true,
+    attributes: true
   });
 
   var checker = setInterval(function () {
     attempts++;
-
-    var box = document.querySelector('.ad-container');
-
-    if (!box) return;
 
     var adElement =
       box.querySelector('iframe') ||
@@ -99,13 +99,15 @@ l.parentNode.insertBefore(s, l);
       box.querySelector('[class*="ad"]') ||
       box.querySelector('[id*="ad"]');
 
-    if (adScriptLoaded || adElement) {
+    if (adElement) {
       clearInterval(checker);
+      observer.disconnect();
       return;
     }
 
-    if (adScriptFailed || attempts >= maxAttempts) {
+    if (attempts >= maxAttempts) {
       clearInterval(checker);
+      observer.disconnect();
 
       if (document.querySelector('.ad-block-warning')) return;
 
