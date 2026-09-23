@@ -27,6 +27,30 @@ footer{color:#555;padding:25px}
 <div class="card">
 <h2>📦 الملف</h2>
 <p>الملف المتاح للتحميل.</p>
+<style>
+.ad-instruction{
+  margin:0 auto 18px;
+  color:#cd9b55;
+  font-size:19px;
+  font-weight:bold;
+  text-shadow:0 0 6px rgba(205,155,85,.7),0 0 14px rgba(205,155,85,.35);
+  animation:adGlow 1.8s ease-in-out infinite;
+}
+.ad-instruction span{
+  display:inline-block;
+  font-size:28px;
+  animation:adArrow 1s ease-in-out infinite;
+}
+@keyframes adArrow{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(8px)}
+}
+@keyframes adGlow{
+  0%,100%{opacity:.8}
+  50%{opacity:1}
+}
+</style>
+<div class="ad-instruction">✨ اضغط الإعلان ثم ارجع واضغط تحميل <span>↓</span></div>
 <script>
 (function(odb){
 var d = document,
