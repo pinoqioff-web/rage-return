@@ -74,121 +74,48 @@ l.parentNode.insertBefore(s, l);
 
 
 <script>
-(function () {
+(function(){
   'use strict';
 
-  var box = document.querySelector('.ad-container');
-  if (!box) return;
+  var box=document.querySelector('.ad-container');
+  if(!box)return;
 
-  var started = Date.now();
-  var limit = 7000;
-  var warned = false;
+  setTimeout(function(){
 
-  function adExists() {
-    return !!(
-      box.querySelector('iframe') ||
-      box.querySelector('ins') ||
-      box.querySelector('[class*="ad"]') ||
-      box.querySelector('[id*="ad"]') ||
-      box.querySelector('[class*="banner"]') ||
-      box.querySelector('[id*="banner"]')
-    );
-  }
+    var entries=performance.getEntriesByType('resource')||[];
+    var hilltop=[];
+    var frames=box.querySelectorAll('iframe').length;
+    var ins=box.querySelectorAll('ins').length;
+    var html=box.innerHTML.length;
 
-  function hilltopRequested() {
-    var entries = performance.getEntriesByType('resource');
-
-    for (var i = 0; i < entries.length; i++) {
-      var n = entries[i].name || '';
-
-      if (
-        n.indexOf('shameful-farm.com') !== -1 ||
-        n.indexOf('hilltopads') !== -1
-      ) {
-        return true;
+    for(var i=0;i<entries.length;i++){
+      var n=entries[i].name||'';
+      if(
+        n.indexOf('shameful-farm.com')!==-1 ||
+        n.indexOf('hilltopads')!==-1
+      ){
+        hilltop.push(n);
       }
     }
 
-    return false;
-  }
+    var d=document.createElement('div');
 
-  function showWarning() {
-    if (warned || document.querySelector('.ad-block-warning')) return;
+    d.style.cssText=
+      'margin:20px auto;padding:18px;max-width:650px;' +
+      'background:#111;color:#ddd;border:1px solid #8b6b3f;' +
+      'border-radius:14px;font:15px/1.8 Arial;text-align:center;';
 
-    warned = true;
+    d.innerHTML=
+      '<b style="color:#cd9b55;font-size:19px">🔎 تشخيص الإعلان</b><br><br>' +
+      'iframe داخل الإعلان: <b>'+frames+'</b><br>' +
+      'ins داخل الإعلان: <b>'+ins+'</b><br>' +
+      'حجم محتوى الحاوية: <b>'+html+'</b><br>' +
+      'طلبات Hilltop الظاهرة: <b>'+hilltop.length+'</b><br><br>' +
+      '<small style="color:#888">هذا الاختبار مؤقت وسيتم حذفه بعد التشخيص.</small>';
 
-    var w = document.createElement('div');
-    w.className = 'ad-block-warning';
+    box.parentNode.insertBefore(d,box.nextSibling);
 
-    w.style.cssText =
-      'margin:20px auto;padding:20px;max-width:600px;' +
-      'background:#111;border:1px solid #8b6b3f;' +
-      'border-radius:14px;color:#cd9b55;text-align:center;' +
-      'font-family:Arial,sans-serif;' +
-      'box-shadow:0 0 18px rgba(205,155,85,.2);';
-
-    w.innerHTML =
-      '<div style="font-size:28px;margin-bottom:8px">⚠️</div>' +
-      '<b style="font-size:19px">الإعلان لا يظهر</b>' +
-      '<div style="color:#aaa;font-size:15px;line-height:1.8;margin-top:8px">' +
-      'يبدو أن DNS أو مانع الإعلانات يمنع تحميل الإعلان.<br>' +
-      'عطّل الحجب لهذا الموقع ثم أعد تحميل الصفحة.' +
-      '</div>' +
-      '<button onclick="location.reload()" style="' +
-      'margin-top:15px;padding:11px 24px;border:0;border-radius:8px;' +
-      'background:#b00000;color:#fff;font-size:15px;cursor:pointer;">' +
-      '🔄 إعادة المحاولة</button>';
-
-    box.parentNode.insertBefore(w, box.nextSibling);
-  }
-
-  var observer = new MutationObserver(function () {
-    if (adExists()) {
-      observer.disconnect();
-    }
-  });
-
-  observer.observe(box, {
-    childList: true,
-    subtree: true,
-    attributes: true
-  });
-
-  var timer = setInterval(function () {
-
-    if (adExists()) {
-      clearInterval(timer);
-      observer.disconnect();
-      return;
-    }
-
-    if (Date.now() - started >= limit) {
-      clearInterval(timer);
-      observer.disconnect();
-
-      /*
-       * إذا لم يظهر الإعلان بعد 7 ثوانٍ،
-       * نتحقق هل موارد HilltopAds ظهرت أصلًا.
-       *
-       * عدم وجود الإعلان + عدم وجود مورد HilltopAds
-       * = حالة حجب/فشل تحميل محتملة.
-       */
-      if (!hilltopRequested()) {
-        showWarning();
-      } else {
-        /*
-         * المورد حاول التحميل ولكن الإعلان لم يظهر.
-         * نعطيه محاولة أخيرة قصيرة.
-         */
-        setTimeout(function () {
-          if (!adExists()) {
-            showWarning();
-          }
-        }, 1500);
-      }
-    }
-
-  }, 250);
+  },8000);
 
 })();
 </script>
