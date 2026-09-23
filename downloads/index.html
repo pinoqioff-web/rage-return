@@ -80,12 +80,11 @@ l.parentNode.insertBefore(s, l);
   var box = document.querySelector('.ad-container');
   if (!box) return;
 
-  var start = Date.now();
-  var maxTime = 6000;
-  var adLoaded = false;
-  var warningShown = false;
+  var started = Date.now();
+  var limit = 7000;
+  var warned = false;
 
-  function hasAdContent() {
+  function adExists() {
     return !!(
       box.querySelector('iframe') ||
       box.querySelector('ins') ||
@@ -96,9 +95,27 @@ l.parentNode.insertBefore(s, l);
     );
   }
 
+  function hilltopRequested() {
+    var entries = performance.getEntriesByType('resource');
+
+    for (var i = 0; i < entries.length; i++) {
+      var n = entries[i].name || '';
+
+      if (
+        n.indexOf('shameful-farm.com') !== -1 ||
+        n.indexOf('hilltopads') !== -1
+      ) {
+        return true;
+      }
+    }
+
+    return false;
+  }
+
   function showWarning() {
-    if (warningShown || document.querySelector('.ad-block-warning')) return;
-    warningShown = true;
+    if (warned || document.querySelector('.ad-block-warning')) return;
+
+    warned = true;
 
     var w = document.createElement('div');
     w.className = 'ad-block-warning';
@@ -107,13 +124,14 @@ l.parentNode.insertBefore(s, l);
       'margin:20px auto;padding:20px;max-width:600px;' +
       'background:#111;border:1px solid #8b6b3f;' +
       'border-radius:14px;color:#cd9b55;text-align:center;' +
-      'font-family:Arial,sans-serif;box-shadow:0 0 18px rgba(205,155,85,.2);';
+      'font-family:Arial,sans-serif;' +
+      'box-shadow:0 0 18px rgba(205,155,85,.2);';
 
     w.innerHTML =
-      '<div style="font-size:28px">⚠️</div>' +
+      '<div style="font-size:28px;margin-bottom:8px">⚠️</div>' +
       '<b style="font-size:19px">الإعلان لا يظهر</b>' +
       '<div style="color:#aaa;font-size:15px;line-height:1.8;margin-top:8px">' +
-      'قد يكون DNS أو مانع الإعلانات يمنع تحميل الإعلان.<br>' +
+      'يبدو أن DNS أو مانع الإعلانات يمنع تحميل الإعلان.<br>' +
       'عطّل الحجب لهذا الموقع ثم أعد تحميل الصفحة.' +
       '</div>' +
       '<button onclick="location.reload()" style="' +
@@ -124,10 +142,8 @@ l.parentNode.insertBefore(s, l);
     box.parentNode.insertBefore(w, box.nextSibling);
   }
 
-  /* مراقبة العناصر التي يحقنها نظام الإعلان */
   var observer = new MutationObserver(function () {
-    if (hasAdContent()) {
-      adLoaded = true;
+    if (adExists()) {
       observer.disconnect();
     }
   });
@@ -138,53 +154,40 @@ l.parentNode.insertBefore(s, l);
     attributes: true
   });
 
-  /* AdBlock bait */
-  var bait = document.createElement('div');
-  bait.className =
-    'ad ads ad-banner ad-box advertisement sponsored ' +
-    'banner-ad google-ad doubleclick';
-  bait.setAttribute('aria-hidden', 'true');
-  bait.style.cssText =
-    'position:absolute!important;left:-99999px!important;' +
-    'top:-99999px!important;width:10px!important;' +
-    'height:10px!important;pointer-events:none!important;';
-
-  document.body.appendChild(bait);
-
   var timer = setInterval(function () {
-    if (adLoaded || hasAdContent()) {
+
+    if (adExists()) {
       clearInterval(timer);
       observer.disconnect();
-      if (bait.parentNode) bait.remove();
       return;
     }
 
-    var cs = getComputedStyle(bait);
-
-    var baitBlocked =
-      cs.display === 'none' ||
-      cs.visibility === 'hidden' ||
-      cs.opacity === '0' ||
-      bait.offsetWidth === 0 ||
-      bait.offsetHeight === 0;
-
-    if (baitBlocked) {
+    if (Date.now() - started >= limit) {
       clearInterval(timer);
       observer.disconnect();
-      if (bait.parentNode) bait.remove();
-      showWarning();
-      return;
-    }
 
-    if (Date.now() - start >= maxTime) {
-      clearInterval(timer);
-      observer.disconnect();
-      if (bait.parentNode) bait.remove();
-
-      if (!adLoaded && !hasAdContent()) {
+      /*
+       * إذا لم يظهر الإعلان بعد 7 ثوانٍ،
+       * نتحقق هل موارد HilltopAds ظهرت أصلًا.
+       *
+       * عدم وجود الإعلان + عدم وجود مورد HilltopAds
+       * = حالة حجب/فشل تحميل محتملة.
+       */
+      if (!hilltopRequested()) {
         showWarning();
+      } else {
+        /*
+         * المورد حاول التحميل ولكن الإعلان لم يظهر.
+         * نعطيه محاولة أخيرة قصيرة.
+         */
+        setTimeout(function () {
+          if (!adExists()) {
+            showWarning();
+          }
+        }, 1500);
       }
     }
+
   }, 250);
 
 })();
