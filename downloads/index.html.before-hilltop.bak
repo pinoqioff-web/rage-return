@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>التحميلات | PINOQIO BLOG</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#080808;color:#fff;font-family:Arial,sans-serif;text-align:center}
+.back{display:block;text-align:right;padding:20px;font-size:32px;color:#fff;text-decoration:none}
+.container{width:92%;max-width:700px;margin:auto}
+h1{color:#d4af37;font-size:42px;margin:30px 0 45px}
+.card{background:#111;border:1px solid #292929;border-radius:20px;padding:40px 25px;margin-bottom:40px}
+.card h2{font-size:30px;color:#ddd}
+.card p{color:#aaa;font-size:20px;line-height:1.8}
+.btn{display:inline-block;margin-top:20px;padding:15px 35px;background:#b00000;color:#fff;text-decoration:none;border-radius:10px;font-size:20px}
+footer{color:#555;padding:25px}
+</style>
+</head>
+<body>
+
+<a class="back" href="/" aria-label="رجوع">←</a>
+
+<main class="container">
+<h1>📥 التحميلات</h1>
+
+<div class="card">
+<h2>📦 الملف</h2>
+<p>الملف المتاح للتحميل.</p>
+<a class="btn" href="https://xdabo.com/PINOQIO">⬇️ تحميل الملف</a>
+</div>
+
+</main>
+
+<footer>© 2026 PINOQIO BLOG</footer>
+
+</body>
+</html>
