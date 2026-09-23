@@ -65,7 +65,25 @@ body{background:transparent!important}
 
 
 </div>
-</header><div class="quran-mini"><span>🎧 استمع للقرآن الكريم</span><audio id="quranAudio" src="/assets/quran-rain.mp3" preload="none"></audio><button onclick="const a=document.getElementById('quranAudio');a.paused?a.play():a.pause()" aria-label="تشغيل القرآن">▶</button></div><style>.quran-mini{display:flex;align-items:center;justify-content:center;gap:8px;margin:8px auto 12px;padding:4px 10px;width:max-content;max-width:92%;font-size:13px;font-weight:700;color:#fff;text-shadow:0 0 6px #fff,0 0 12px #b026ff,0 0 20px #ffd700;animation:qneon 2s ease-in-out infinite alternate}.quran-mini button{border:1px solid #ffd700;background:#111;color:#fff;border-radius:50%;width:28px;height:28px;padding:0;font-size:13px;box-shadow:0 0 8px #ffd700;cursor:pointer}@keyframes qneon{from{opacity:.75}to{opacity:1;text-shadow:0 0 8px #fff,0 0 16px #b026ff,0 0 24px #ffd700}}@media(max-width:600px){.quran-mini{font-size:12px;margin:6px auto 10px}}</style>
+</header><div class="quran-mini">
+  <div class="quran-text">
+    <div class="quran-title">🎧 خُذ دقيقة من وقتك 🤍</div>
+    <div class="quran-sub">استمع للقرآن… واهدأ قلبك</div>
+  </div>
+  <audio id="quranAudio" src="/assets/quran-rain.mp3" preload="none"></audio>
+  <button onclick="const a=document.getElementById('quranAudio');a.paused?a.play():a.pause()" aria-label="تشغيل القرآن">▶</button>
+</div>
+<style>
+.quran-mini{display:flex;align-items:center;justify-content:center;gap:8px;margin:7px auto 10px;padding:3px 9px;width:max-content;max-width:94%;text-align:center}
+.quran-text{direction:rtl;line-height:1.35;text-align:center;animation:qFloat 3s ease-in-out infinite}
+.quran-title{font-size:15px;font-weight:900;color:#fff;text-shadow:0 0 4px #fff,0 0 9px #b026ff,0 0 16px #b026ff,0 0 24px #ffd700;animation:qNeon 1.8s ease-in-out infinite alternate}
+.quran-sub{margin-top:3px;font-size:11px;font-weight:800;color:#fff;text-shadow:0 0 4px #fff,0 0 8px #ff2bd6,0 0 14px #ffd700;animation:qColor 3s ease-in-out infinite}
+.quran-mini button{flex:none;border:1px solid #ffd700;background:#111;color:#fff;border-radius:50%;width:28px;height:28px;padding:0;font-size:13px;box-shadow:0 0 8px #ffd700;cursor:pointer}
+@keyframes qNeon{from{opacity:.72;text-shadow:0 0 3px #fff,0 0 7px #8a2be2,0 0 12px #8a2be2}to{opacity:1;text-shadow:0 0 5px #fff,0 0 12px #b026ff,0 0 22px #ffd700,0 0 30px #ff2bd6}}
+@keyframes qColor{0%,100%{filter:hue-rotate(0deg)}50%{filter:hue-rotate(35deg)}}
+@keyframes qFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
+@media(max-width:600px){.quran-title{font-size:13px}.quran-sub{font-size:10px}}
+</style><style>.quran-mini{display:flex;align-items:center;justify-content:center;gap:8px;margin:8px auto 12px;padding:4px 10px;width:max-content;max-width:92%;font-size:13px;font-weight:700;color:#fff;text-shadow:0 0 6px #fff,0 0 12px #b026ff,0 0 20px #ffd700;animation:qneon 2s ease-in-out infinite alternate}.quran-mini button{border:1px solid #ffd700;background:#111;color:#fff;border-radius:50%;width:28px;height:28px;padding:0;font-size:13px;box-shadow:0 0 8px #ffd700;cursor:pointer}@keyframes qneon{from{opacity:.75}to{opacity:1;text-shadow:0 0 8px #fff,0 0 16px #b026ff,0 0 24px #ffd700}}@media(max-width:600px){.quran-mini{font-size:12px;margin:6px auto 10px}}</style>
 
 
 
