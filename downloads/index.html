@@ -139,21 +139,41 @@ l.parentNode.insertBefore(s, l);
       'box-shadow:0 0 18px rgba(205,155,85,.2);';
 
     warning.innerHTML =
-      '<div style="font-size:28px;margin-bottom:8px">⚠️</div>' +
-      '<b style="font-size:19px">الإعلان لا يظهر</b>' +
-      '<div style="color:#aaa;font-size:15px;line-height:1.8;margin-top:8px">' +
-      'يبدو أن DNS أو مانع الإعلانات يمنع ظهور الإعلان.<br>' +
-      'عطّل الحجب لهذا الموقع ثم أعد تحميل الصفحة.' +
-      '</div>' +
-      '<button onclick="location.reload()" style="' +
-      'margin-top:15px;padding:11px 24px;border:0;border-radius:8px;' +
-      'background:#b00000;color:#fff;font-size:15px;cursor:pointer;">' +
-      '🔄 إعادة المحاولة</button>';
+  '<div style="font-size:38px;line-height:1;margin-bottom:10px;' +
+  'animation:adArrowUp 1.2s ease-in-out infinite;">↑</div>' +
 
-    box.parentNode.insertBefore(warning, box.nextSibling);
-  }
+  '<div class="neon-warning-text">' +
+  '<span>أ</span><span>و</span><span>ق</span><span>ف</span><span> </span>' +
+  '<span>D</span><span>N</span><span>S</span><span> </span>' +
+  '<span>ا</span><span>ل</span><span>خ</span><span>ا</span><span>ص</span>' +
+  '<span> </span><span>ث</span><span>م</span><span> </span>' +
+  '<span>أ</span><span>ع</span><span>د</span><span> </span>' +
+  '<span>ا</span><span>ل</span><span>م</span><span>ح</span><span>ا</span><span>و</span><span>ل</span><span>ة</span>' +
+  '</div>' +
 
-  var observer = new MutationObserver(function () {
+  '<div style="color:#aaa;font-size:14px;margin-top:8px;line-height:1.7">' +
+  'الإعدادات ← الاتصالات ← المزيد من ضبط الاتصال ← DNS الخاص ← إيقاف' +
+  '</div>' +
+
+  '<button onclick="location.reload()" style="' +
+  'margin-top:14px;padding:10px 22px;border:0;border-radius:8px;' +
+  'background:#b00000;color:#fff;font-size:15px;cursor:pointer;">' +
+  '🔄 إعادة المحاولة</button>';
+
+var style=document.createElement('style');
+style.textContent=
+'@keyframes adArrowUp{0%,100%{transform:translateY(4px);opacity:.65}50%{transform:translateY(-3px);opacity:1}}' +
+'.neon-warning-text{font-size:20px;font-weight:bold;line-height:1.8;text-shadow:0 0 5px currentColor,0 0 12px currentColor;}' +
+'.neon-warning-text span{display:inline-block;animation:neonPulse 2.4s ease-in-out infinite;}' +
+'.neon-warning-text span:nth-child(4n+1){color:#00ffff}' +
+'.neon-warning-text span:nth-child(4n+2){color:#ff3bff}' +
+'.neon-warning-text span:nth-child(4n+3){color:#7dff00}' +
+'.neon-warning-text span:nth-child(4n){color:#ffd000}' +
+'@keyframes neonPulse{0%,100%{opacity:.65;text-shadow:0 0 3px currentColor,0 0 8px currentColor}50%{opacity:1;text-shadow:0 0 6px currentColor,0 0 16px currentColor}}';
+
+document.head.appendChild(style);
+
+  var observer= new MutationObserver(function () {
     if (realAdExists()) {
       finished = true;
       observer.disconnect();
