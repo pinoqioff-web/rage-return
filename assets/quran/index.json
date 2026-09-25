@@ -1,0 +1,2173 @@
+[
+  {
+    "file": "/assets/quran/rizq/__rizq__28-77-77.mp3",
+    "theme": "rizq"
+  },
+  {
+    "file": "/assets/quran/work/__work__9-105-105.mp3",
+    "theme": "work"
+  },
+  {
+    "file": "/assets/quran/dua/__dua__3-8-8.mp3",
+    "theme": "dua"
+  },
+  {
+    "file": "/assets/quran/parents/__parents__31-14-14.mp3",
+    "theme": "parents"
+  },
+  {
+    "file": "/assets/quran/marriage/__marriage__24-32-32.mp3",
+    "theme": "marriage"
+  },
+  {
+    "file": "/assets/quran/family/__family__25-74-74.mp3",
+    "theme": "family"
+  },
+  {
+    "file": "/assets/quran/patience/__patience__2-153-153.mp3",
+    "theme": "patience"
+  },
+  {
+    "file": "/assets/quran/sadness/__sadness__94-5-6.mp3",
+    "theme": "sadness"
+  },
+  {
+    "file": "/assets/quran/anxiety/__anxiety__8-30-30.mp3",
+    "theme": "anxiety"
+  },
+  {
+    "file": "/assets/quran/tranquility/__tranquility__9-26-26.mp3",
+    "theme": "tranquility"
+  },
+  {
+    "file": "/assets/quran/hope/__hope__12-87-87.mp3",
+    "theme": "hope"
+  },
+  {
+    "file": "/assets/quran/repentance/__repentance__25-70-70.mp3",
+    "theme": "repentance"
+  },
+  {
+    "file": "/assets/quran/sins/__sins__4-31-31.mp3",
+    "theme": "sins"
+  },
+  {
+    "file": "/assets/quran/gratitude/__gratitude__14-7-7.mp3",
+    "theme": "gratitude"
+  },
+  {
+    "file": "/assets/quran/guidance/__guidance__1-6-7.mp3",
+    "theme": "guidance"
+  },
+  {
+    "file": "/assets/quran/justice/__justice__4-135-135.mp3",
+    "theme": "justice"
+  },
+  {
+    "file": "/assets/quran/death/__death__3-185-185.mp3",
+    "theme": "death"
+  },
+  {
+    "file": "/assets/quran/grave/__grave__23-99-100.mp3",
+    "theme": "grave"
+  },
+  {
+    "file": "/assets/quran/resurrection/__resurrection__36-51-52.mp3",
+    "theme": "resurrection"
+  },
+  {
+    "file": "/assets/quran/judgement/__judgement__101-6-11.mp3",
+    "theme": "judgement"
+  },
+  {
+    "file": "/assets/quran/heaven/__heaven__9-72-72.mp3",
+    "theme": "heaven"
+  },
+  {
+    "file": "/assets/quran/hell/__hell__4-56-56.mp3",
+    "theme": "hell"
+  },
+  {
+    "file": "/assets/quran/afterlife/__afterlife__57-20-20.mp3",
+    "theme": "afterlife"
+  },
+  {
+    "file": "/assets/quran/إبراهيم_الأخضر/1_097.mp3",
+    "reciter_id": 1,
+    "reciter": "إبراهيم الأخضر",
+    "surah": 97,
+    "duration": 46.91
+  },
+  {
+    "file": "/assets/quran/أكرم_العلاقمي/10_103.mp3",
+    "reciter_id": 10,
+    "reciter": "أكرم العلاقمي",
+    "surah": 103,
+    "duration": 23.02
+  },
+  {
+    "file": "/assets/quran/ماجد_العنزي/100_102.mp3",
+    "reciter_id": 100,
+    "reciter": "ماجد العنزي",
+    "surah": 102,
+    "duration": 44.63
+  },
+  {
+    "file": "/assets/quran/محمد_الأيراوي/104_108.mp3",
+    "reciter_id": 104,
+    "reciter": "محمد الأيراوي",
+    "surah": 108,
+    "duration": 23.12
+  },
+  {
+    "file": "/assets/quran/محمد_البراك/105_102.mp3",
+    "reciter_id": 105,
+    "reciter": "محمد البراك",
+    "surah": 102,
+    "duration": 41.2
+  },
+  {
+    "file": "/assets/quran/محمد_الطبلاوي/106_108.mp3",
+    "reciter_id": 106,
+    "reciter": "محمد الطبلاوي",
+    "surah": 108,
+    "duration": 33.12
+  },
+  {
+    "file": "/assets/quran/محمد_المحيسني/108_100.mp3",
+    "reciter_id": 108,
+    "reciter": "محمد المحيسني",
+    "surah": 100,
+    "duration": 35.44
+  },
+  {
+    "file": "/assets/quran/الحسيني_العزازي/11_112.mp3",
+    "reciter_id": 11,
+    "reciter": "الحسيني العزازي",
+    "surah": 112,
+    "duration": 43.79
+  },
+  {
+    "file": "/assets/quran/محمد_صالح_عالم_شاه/110_099.mp3",
+    "reciter_id": 110,
+    "reciter": "محمد صالح عالم شاه",
+    "surah": 99,
+    "duration": 42.61
+  },
+  {
+    "file": "/assets/quran/محمد_صديق_المنشاوي/112_094.mp3",
+    "reciter_id": 112,
+    "reciter": "محمد صديق المنشاوي",
+    "surah": 94,
+    "duration": 43.57
+  },
+  {
+    "file": "/assets/quran/محمد_عبدالكريم/115_103.mp3",
+    "reciter_id": 115,
+    "reciter": "محمد عبدالكريم",
+    "surah": 103,
+    "duration": 27.69
+  },
+  {
+    "file": "/assets/quran/محمد_عبدالحكيم_سعيد_العبدالله/116_110.mp3",
+    "reciter_id": 116,
+    "reciter": "محمد عبدالحكيم سعيد العبدالله",
+    "surah": 110,
+    "duration": 35.12
+  },
+  {
+    "file": "/assets/quran/مشاري_العفاسي/123_097.mp3",
+    "reciter_id": 123,
+    "reciter": "مشاري العفاسي",
+    "surah": 97,
+    "duration": 57.29
+  },
+  {
+    "file": "/assets/quran/مصطفى_اللاهوني/126_094.mp3",
+    "reciter_id": 126,
+    "reciter": "مصطفى اللاهوني",
+    "surah": 94,
+    "duration": 41.6
+  },
+  {
+    "file": "/assets/quran/مصطفى_رعد_العزاوي/127_093.mp3",
+    "reciter_id": 127,
+    "reciter": "مصطفى رعد العزاوي",
+    "surah": 93,
+    "duration": 54.21
+  },
+  {
+    "file": "/assets/quran/مفتاح_السلطني/129_102.mp3",
+    "reciter_id": 129,
+    "reciter": "مفتاح السلطني",
+    "surah": 102,
+    "duration": 47.79
+  },
+  {
+    "file": "/assets/quran/الزين_محمد_أحمد/13_099.mp3",
+    "reciter_id": 13,
+    "reciter": "الزين محمد أحمد",
+    "surah": 99,
+    "duration": 43.7
+  },
+  {
+    "file": "/assets/quran/محمد_سايد/134_106.mp3",
+    "reciter_id": 134,
+    "reciter": "محمد سايد",
+    "surah": 106,
+    "duration": 37.21
+  },
+  {
+    "file": "/assets/quran/عبدالرحمن_السويّد/135_110.mp3",
+    "reciter_id": 135,
+    "reciter": "عبدالرحمن السويّد",
+    "surah": 110,
+    "duration": 28.82
+  },
+  {
+    "file": "/assets/quran/عبدالإله_بن_عون/136_095.mp3",
+    "reciter_id": 136,
+    "reciter": "عبدالإله بن عون",
+    "surah": 95,
+    "duration": 52.78
+  },
+  {
+    "file": "/assets/quran/أحمد_طالب_بن_حميد/137_111.mp3",
+    "reciter_id": 137,
+    "reciter": "أحمد طالب بن حميد",
+    "surah": 111,
+    "duration": 37.7
+  },
+  {
+    "file": "/assets/quran/نورين_محمد_صديق/138_107.mp3",
+    "reciter_id": 138,
+    "reciter": "نورين محمد صديق",
+    "surah": 107,
+    "duration": 35.09
+  },
+  {
+    "file": "/assets/quran/ماجد_الزامل/139_095.mp3",
+    "reciter_id": 139,
+    "reciter": "ماجد الزامل",
+    "surah": 95,
+    "duration": 38.48
+  },
+  {
+    "file": "/assets/quran/القارئ_ياسين/14_112.mp3",
+    "reciter_id": 14,
+    "reciter": "القارئ ياسين",
+    "surah": 112,
+    "duration": 15.49
+  },
+  {
+    "file": "/assets/quran/ماهر_شخاشيرو/149_103.mp3",
+    "reciter_id": 149,
+    "reciter": "ماهر شخاشيرو",
+    "surah": 103,
+    "duration": 22.29
+  },
+  {
+    "file": "/assets/quran/العشري_عمران/15_105.mp3",
+    "reciter_id": 15,
+    "reciter": "العشري عمران",
+    "surah": 105,
+    "duration": 38.65
+  },
+  {
+    "file": "/assets/quran/محمد_المنشد/150_109.mp3",
+    "reciter_id": 150,
+    "reciter": "محمد المنشد",
+    "surah": 109,
+    "duration": 32.98
+  },
+  {
+    "file": "/assets/quran/محمود_الشيمي/151_111.mp3",
+    "reciter_id": 151,
+    "reciter": "محمود الشيمي",
+    "surah": 111,
+    "duration": 38.31
+  },
+  {
+    "file": "/assets/quran/ياسر_سلامة/152_111.mp3",
+    "reciter_id": 152,
+    "reciter": "ياسر سلامة",
+    "surah": 111,
+    "duration": 28.06
+  },
+  {
+    "file": "/assets/quran/خالد_المهنا/159_108.mp3",
+    "reciter_id": 159,
+    "reciter": "خالد المهنا",
+    "surah": 108,
+    "duration": 22.69
+  },
+  {
+    "file": "/assets/quran/العيون_الكوشي/16_109.mp3",
+    "reciter_id": 16,
+    "reciter": "العيون الكوشي",
+    "surah": 109,
+    "duration": 37.77
+  },
+  {
+    "file": "/assets/quran/عادل_الكلباني/160_102.mp3",
+    "reciter_id": 160,
+    "reciter": "عادل الكلباني",
+    "surah": 102,
+    "duration": 38.04
+  },
+  {
+    "file": "/assets/quran/موسى_بلال/161_111.mp3",
+    "reciter_id": 161,
+    "reciter": "موسى بلال",
+    "surah": 111,
+    "duration": 26.44
+  },
+  {
+    "file": "/assets/quran/حسين_آل_الشيخ/162_111.mp3",
+    "reciter_id": 162,
+    "reciter": "حسين آل الشيخ",
+    "surah": 111,
+    "duration": 28.91
+  },
+  {
+    "file": "/assets/quran/حاتم_فريد_الواعر/163_111.mp3",
+    "reciter_id": 163,
+    "reciter": "حاتم فريد الواعر",
+    "surah": 111,
+    "duration": 27.57
+  },
+  {
+    "file": "/assets/quran/إبراهيم_الجرمي/164_099.mp3",
+    "reciter_id": 164,
+    "reciter": "إبراهيم الجرمي",
+    "surah": 99,
+    "duration": 51.97
+  },
+  {
+    "file": "/assets/quran/محمود_الرفاعي/165_106.mp3",
+    "reciter_id": 165,
+    "reciter": "محمود الرفاعي",
+    "surah": 106,
+    "duration": 32.77
+  },
+  {
+    "file": "/assets/quran/ناصر_العبيد/166_097.mp3",
+    "reciter_id": 166,
+    "reciter": "ناصر العبيد",
+    "surah": 97,
+    "duration": 31.43
+  },
+  {
+    "file": "/assets/quran/توفيق_الصايغ/17_107.mp3",
+    "reciter_id": 17,
+    "reciter": "توفيق الصايغ",
+    "surah": 107,
+    "duration": 33.75
+  },
+  {
+    "file": "/assets/quran/إبراهيم_الدوسري/178_104.mp3",
+    "reciter_id": 178,
+    "reciter": "إبراهيم الدوسري",
+    "surah": 104,
+    "duration": 58.59
+  },
+  {
+    "file": "/assets/quran/جمال_شاكر_عبدالله/18_108.mp3",
+    "reciter_id": 18,
+    "reciter": "جمال شاكر عبدالله",
+    "surah": 108,
+    "duration": 14.75
+  },
+  {
+    "file": "/assets/quran/حمد_الدغريري/19_103.mp3",
+    "reciter_id": 19,
+    "reciter": "حمد الدغريري",
+    "surah": 103,
+    "duration": 19.03
+  },
+  {
+    "file": "/assets/quran/محمد_خير_النور/192_001.mp3",
+    "reciter_id": 192,
+    "reciter": "محمد خير النور",
+    "surah": 1,
+    "duration": 53.95
+  },
+  {
+    "file": "/assets/quran/يوسف_بن_نوح_أحمد/193_103.mp3",
+    "reciter_id": 193,
+    "reciter": "يوسف بن نوح أحمد",
+    "surah": 103,
+    "duration": 20.64
+  },
+  {
+    "file": "/assets/quran/معيض_الحارثي/197_104.mp3",
+    "reciter_id": 197,
+    "reciter": "معيض الحارثي",
+    "surah": 104,
+    "duration": 41.28
+  },
+  {
+    "file": "/assets/quran/محمد_رشاد_الشريف/198_109.mp3",
+    "reciter_id": 198,
+    "reciter": "محمد رشاد الشريف",
+    "surah": 109,
+    "duration": 38.22
+  },
+  {
+    "file": "/assets/quran/إبراهيم_الجبرين/2_113.mp3",
+    "reciter_id": 2,
+    "reciter": "إبراهيم الجبرين",
+    "surah": 113,
+    "duration": 20.47
+  },
+  {
+    "file": "/assets/quran/عبدالله_الكندري/202_094.mp3",
+    "reciter_id": 202,
+    "reciter": "عبدالله الكندري",
+    "surah": 94,
+    "duration": 36.92
+  },
+  {
+    "file": "/assets/quran/أحمد_عامر/203_104.mp3",
+    "reciter_id": 203,
+    "reciter": "أحمد عامر",
+    "surah": 104,
+    "duration": 50.47
+  },
+  {
+    "file": "/assets/quran/إبراهيم_السعدان/204_109.mp3",
+    "reciter_id": 204,
+    "reciter": "إبراهيم السعدان",
+    "surah": 109,
+    "duration": 43.7
+  },
+  {
+    "file": "/assets/quran/أحمد_الحذيفي/205_112.mp3",
+    "reciter_id": 205,
+    "reciter": "أحمد الحذيفي",
+    "surah": 112,
+    "duration": 21.08
+  },
+  {
+    "file": "/assets/quran/يوسف_الدغوش/207_109.mp3",
+    "reciter_id": 207,
+    "reciter": "يوسف الدغوش",
+    "surah": 109,
+    "duration": 37.52
+  },
+  {
+    "file": "/assets/quran/الدوكالي_محمد_العالم/208_105.mp3",
+    "reciter_id": 208,
+    "reciter": "الدوكالي محمد العالم",
+    "surah": 105,
+    "duration": 30.98
+  },
+  {
+    "file": "/assets/quran/خالد_القحطاني/21_106.mp3",
+    "reciter_id": 21,
+    "reciter": "خالد القحطاني",
+    "surah": 106,
+    "duration": 30.09
+  },
+  {
+    "file": "/assets/quran/الفاتح_محمد_الزبير/211_094.mp3",
+    "reciter_id": 211,
+    "reciter": "الفاتح محمد الزبير",
+    "surah": 94,
+    "duration": 28.78
+  },
+  {
+    "file": "/assets/quran/عبدالله_القرافي/21136_097.mp3",
+    "reciter_id": 21136,
+    "reciter": "عبدالله القرافي",
+    "surah": 97,
+    "duration": 42.6
+  },
+  {
+    "file": "/assets/quran/عبدالبديع_غيلان/21148_095.mp3",
+    "reciter_id": 21148,
+    "reciter": "عبدالبديع غيلان",
+    "surah": 95,
+    "duration": 48.75
+  },
+  {
+    "file": "/assets/quran/محمد_برهجي/21181_106.mp3",
+    "reciter_id": 21181,
+    "reciter": "محمد برهجي",
+    "surah": 106,
+    "duration": 28.46
+  },
+  {
+    "file": "/assets/quran/يوسف_العيدروس/21182_107.mp3",
+    "reciter_id": 21182,
+    "reciter": "يوسف العيدروس",
+    "surah": 107,
+    "duration": 45.85
+  },
+  {
+    "file": "/assets/quran/محمد_الفقيه/21184_109.mp3",
+    "reciter_id": 21184,
+    "reciter": "محمد الفقيه",
+    "surah": 109,
+    "duration": 37.72
+  },
+  {
+    "file": "/assets/quran/خالد_الزيادي/21187_097.mp3",
+    "reciter_id": 21187,
+    "reciter": "خالد الزيادي",
+    "surah": 97,
+    "duration": 53.69
+  },
+  {
+    "file": "/assets/quran/الوليد_الشمسان/21188_105.mp3",
+    "reciter_id": 21188,
+    "reciter": "الوليد الشمسان",
+    "surah": 105,
+    "duration": 52.43
+  },
+  {
+    "file": "/assets/quran/إبراهيم_الشهري/21191_109.mp3",
+    "reciter_id": 21191,
+    "reciter": "إبراهيم الشهري",
+    "surah": 109,
+    "duration": 34.96
+  },
+  {
+    "file": "/assets/quran/عبدالرحمن_بن_عبدالرزاق_البدر/21193_093.mp3",
+    "reciter_id": 21193,
+    "reciter": "عبدالرحمن بن عبدالرزاق البدر",
+    "surah": 93,
+    "duration": 52.27
+  },
+  {
+    "file": "/assets/quran/محمد_الزبيدي/21197_104.mp3",
+    "reciter_id": 21197,
+    "reciter": "محمد الزبيدي",
+    "surah": 104,
+    "duration": 58.07
+  },
+  {
+    "file": "/assets/quran/عبد_المجيب_بنكيران/21199_103.mp3",
+    "reciter_id": 21199,
+    "reciter": "عبد المجيب بنكيران",
+    "surah": 103,
+    "duration": 18.67
+  },
+  {
+    "file": "/assets/quran/طارق_عبدالغني_دعوب/212_110.mp3",
+    "reciter_id": 212,
+    "reciter": "طارق عبدالغني دعوب",
+    "surah": 110,
+    "duration": 34.29
+  },
+  {
+    "file": "/assets/quran/عاصم_اللحیدان/21201_094.mp3",
+    "reciter_id": 21201,
+    "reciter": "عاصم اللحیدان",
+    "surah": 94,
+    "duration": 52.11
+  },
+  {
+    "file": "/assets/quran/محمود_حرفوش/21202_106.mp3",
+    "reciter_id": 21202,
+    "reciter": "محمود حرفوش",
+    "surah": 106,
+    "duration": 40.91
+  },
+  {
+    "file": "/assets/quran/عثمان_الأنصاري/216_087.mp3",
+    "reciter_id": 216,
+    "reciter": "عثمان الأنصاري",
+    "surah": 87,
+    "duration": 57.89
+  },
+  {
+    "file": "/assets/quran/خالد_الشريمي/218_092.mp3",
+    "reciter_id": 218,
+    "reciter": "خالد الشريمي",
+    "surah": 92,
+    "duration": 46.85
+  },
+  {
+    "file": "/assets/quran/وديع_اليمني/219_101.mp3",
+    "reciter_id": 219,
+    "reciter": "وديع اليمني",
+    "surah": 101,
+    "duration": 48.6
+  },
+  {
+    "file": "/assets/quran/خالد_عبدالكافي/22_109.mp3",
+    "reciter_id": 22,
+    "reciter": "خالد عبدالكافي",
+    "surah": 109,
+    "duration": 30.25
+  },
+  {
+    "file": "/assets/quran/رعد_محمد_الكردي/221_107.mp3",
+    "reciter_id": 221,
+    "reciter": "رعد محمد الكردي",
+    "surah": 107,
+    "duration": 49.01
+  },
+  {
+    "file": "/assets/quran/عبدالرحمن_العوسي/225_111.mp3",
+    "reciter_id": 225,
+    "reciter": "عبدالرحمن العوسي",
+    "surah": 111,
+    "duration": 36.68
+  },
+  {
+    "file": "/assets/quran/خالد_الغامدي/226_103.mp3",
+    "reciter_id": 226,
+    "reciter": "خالد الغامدي",
+    "surah": 103,
+    "duration": 24.17
+  },
+  {
+    "file": "/assets/quran/رمضان_شكور/227_112.mp3",
+    "reciter_id": 227,
+    "reciter": "رمضان شكور",
+    "surah": 112,
+    "duration": 14.97
+  },
+  {
+    "file": "/assets/quran/عبدالمجيد_الأركاني/228_107.mp3",
+    "reciter_id": 228,
+    "reciter": "عبدالمجيد الأركاني",
+    "surah": 107,
+    "duration": 42.91
+  },
+  {
+    "file": "/assets/quran/رامي_الدعيس/230_105.mp3",
+    "reciter_id": 230,
+    "reciter": "رامي الدعيس",
+    "surah": 105,
+    "duration": 40.36
+  },
+  {
+    "file": "/assets/quran/هزاع_البلوشي/231_111.mp3",
+    "reciter_id": 231,
+    "reciter": "هزاع البلوشي",
+    "surah": 111,
+    "duration": 29.63
+  },
+  {
+    "file": "/assets/quran/مروان_العكري/237_094.mp3",
+    "reciter_id": 237,
+    "reciter": "مروان العكري",
+    "surah": 94,
+    "duration": 39.05
+  },
+  {
+    "file": "/assets/quran/خليفة_الطنيجي/24_094.mp3",
+    "reciter_id": 24,
+    "reciter": "خليفة الطنيجي",
+    "surah": 94,
+    "duration": 36.94
+  },
+  {
+    "file": "/assets/quran/سلمان_العتيبي/240_113.mp3",
+    "reciter_id": 240,
+    "reciter": "سلمان العتيبي",
+    "surah": 113,
+    "duration": 32.48
+  },
+  {
+    "file": "/assets/quran/صلاح_مصلي/246_101.mp3",
+    "reciter_id": 246,
+    "reciter": "صلاح مصلي",
+    "surah": 101,
+    "duration": 54.1
+  },
+  {
+    "file": "/assets/quran/خالد_الشارخ/247_110.mp3",
+    "reciter_id": 247,
+    "reciter": "خالد الشارخ",
+    "surah": 110,
+    "duration": 21.1
+  },
+  {
+    "file": "/assets/quran/ناصر_العصفور/248_093.mp3",
+    "reciter_id": 248,
+    "reciter": "ناصر العصفور",
+    "surah": 93,
+    "duration": 53.43
+  },
+  {
+    "file": "/assets/quran/محمد_البخيت/250_114.mp3",
+    "reciter_id": 250,
+    "reciter": "محمد البخيت",
+    "surah": 114,
+    "duration": 34.12
+  },
+  {
+    "file": "/assets/quran/ناصر_الماجد/251_105.mp3",
+    "reciter_id": 251,
+    "reciter": "ناصر الماجد",
+    "surah": 105,
+    "duration": 32.08
+  },
+  {
+    "file": "/assets/quran/أحمد_السويلم/252_097.mp3",
+    "reciter_id": 252,
+    "reciter": "أحمد السويلم",
+    "surah": 97,
+    "duration": 33.62
+  },
+  {
+    "file": "/assets/quran/بدر_التركي/254_106.mp3",
+    "reciter_id": 254,
+    "reciter": "بدر التركي",
+    "surah": 106,
+    "duration": 28.92
+  },
+  {
+    "file": "/assets/quran/هيثم_الجدعاني/255_097.mp3",
+    "reciter_id": 255,
+    "reciter": "هيثم الجدعاني",
+    "surah": 97,
+    "duration": 38.66
+  },
+  {
+    "file": "/assets/quran/سعد_المقرن/257_097.mp3",
+    "reciter_id": 257,
+    "reciter": "سعد المقرن",
+    "surah": 97,
+    "duration": 24.74
+  },
+  {
+    "file": "/assets/quran/أحمد_النفيس/259_111.mp3",
+    "reciter_id": 259,
+    "reciter": "أحمد النفيس",
+    "surah": 111,
+    "duration": 39.18
+  },
+  {
+    "file": "/assets/quran/رشيد_إفراد/26_094.mp3",
+    "reciter_id": 26,
+    "reciter": "رشيد إفراد",
+    "surah": 94,
+    "duration": 50.17
+  },
+  {
+    "file": "/assets/quran/عمر_الدريويز/260_102.mp3",
+    "reciter_id": 260,
+    "reciter": "عمر الدريويز",
+    "surah": 102,
+    "duration": 42.93
+  },
+  {
+    "file": "/assets/quran/عبدالعزيز_العسيري/263_112.mp3",
+    "reciter_id": 263,
+    "reciter": "عبدالعزيز العسيري",
+    "surah": 112,
+    "duration": 27.14
+  },
+  {
+    "file": "/assets/quran/يونس_اسويلص/264_112.mp3",
+    "reciter_id": 264,
+    "reciter": "يونس اسويلص",
+    "surah": 112,
+    "duration": 25.06
+  },
+  {
+    "file": "/assets/quran/أحمد_ديبان/265_109.mp3",
+    "reciter_id": 265,
+    "reciter": "أحمد ديبان",
+    "surah": 109,
+    "duration": 36.44
+  },
+  {
+    "file": "/assets/quran/نذير_المالكي/271_105.mp3",
+    "reciter_id": 271,
+    "reciter": "نذير المالكي",
+    "surah": 105,
+    "duration": 38.04
+  },
+  {
+    "file": "/assets/quran/عكاشة_كميني/272_103.mp3",
+    "reciter_id": 272,
+    "reciter": "عكاشة كميني",
+    "surah": 103,
+    "duration": 23.43
+  },
+  {
+    "file": "/assets/quran/محمد_أبو_سنينة/274_104.mp3",
+    "reciter_id": 274,
+    "reciter": "محمد أبو سنينة",
+    "surah": 104,
+    "duration": 48.58
+  },
+  {
+    "file": "/assets/quran/محمد_الأمين_قنيوة/275_105.mp3",
+    "reciter_id": 275,
+    "reciter": "محمد الأمين قنيوة",
+    "surah": 105,
+    "duration": 32.45
+  },
+  {
+    "file": "/assets/quran/محمود_عبدالحكم/277_097.mp3",
+    "reciter_id": 277,
+    "reciter": "محمود عبدالحكم",
+    "surah": 97,
+    "duration": 48.94
+  },
+  {
+    "file": "/assets/quran/إبراهيم_كشيدان/279_105.mp3",
+    "reciter_id": 279,
+    "reciter": "إبراهيم كشيدان",
+    "surah": 105,
+    "duration": 33.54
+  },
+  {
+    "file": "/assets/quran/هاشم_أبو_دلال/280_097.mp3",
+    "reciter_id": 280,
+    "reciter": "هاشم أبو دلال",
+    "surah": 97,
+    "duration": 47.63
+  },
+  {
+    "file": "/assets/quran/فؤاد_الخامري/281_100.mp3",
+    "reciter_id": 281,
+    "reciter": "فؤاد الخامري",
+    "surah": 100,
+    "duration": 42.64
+  },
+  {
+    "file": "/assets/quran/خالد_كريم_محمدي/283_097.mp3",
+    "reciter_id": 283,
+    "reciter": "خالد كريم محمدي",
+    "surah": 97,
+    "duration": 45.65
+  },
+  {
+    "file": "/assets/quran/مال_الله_عبدالرحمن_الجابر/284_104.mp3",
+    "reciter_id": 284,
+    "reciter": "مال الله عبدالرحمن الجابر",
+    "surah": 104,
+    "duration": 53.95
+  },
+  {
+    "file": "/assets/quran/سلمان_الصديق/285_106.mp3",
+    "reciter_id": 285,
+    "reciter": "سلمان الصديق",
+    "surah": 106,
+    "duration": 36.52
+  },
+  {
+    "file": "/assets/quran/حسن_صالح/286_095.mp3",
+    "reciter_id": 286,
+    "reciter": "حسن صالح",
+    "surah": 95,
+    "duration": 40.25
+  },
+  {
+    "file": "/assets/quran/عبدالرحمن_الشحات/287_095.mp3",
+    "reciter_id": 287,
+    "reciter": "عبدالرحمن الشحات",
+    "surah": 95,
+    "duration": 50.06
+  },
+  {
+    "file": "/assets/quran/عبدالله_بخاري/29_109.mp3",
+    "reciter_id": 29,
+    "reciter": "عبدالله بخاري",
+    "surah": 109,
+    "duration": 33.47
+  },
+  {
+    "file": "/assets/quran/صالح_القريشي/290_094.mp3",
+    "reciter_id": 290,
+    "reciter": "صالح القريشي",
+    "surah": 94,
+    "duration": 48.14
+  },
+  {
+    "file": "/assets/quran/فيصل_الهاجري/301_097.mp3",
+    "reciter_id": 301,
+    "reciter": "فيصل الهاجري",
+    "surah": 97,
+    "duration": 50.54
+  },
+  {
+    "file": "/assets/quran/عبدالكريم_الحازمي/304_106.mp3",
+    "reciter_id": 304,
+    "reciter": "عبدالكريم الحازمي",
+    "surah": 106,
+    "duration": 24.45
+  },
+  {
+    "file": "/assets/quran/هشام_الهراز/305_101.mp3",
+    "reciter_id": 305,
+    "reciter": "هشام الهراز",
+    "surah": 101,
+    "duration": 42.01
+  },
+  {
+    "file": "/assets/quran/عبدالعزيز_سحيم/307_112.mp3",
+    "reciter_id": 307,
+    "reciter": "عبدالعزيز سحيم",
+    "surah": 112,
+    "duration": 10.38
+  },
+  {
+    "file": "/assets/quran/سهل_ياسين/32_103.mp3",
+    "reciter_id": 32,
+    "reciter": "سهل ياسين",
+    "surah": 103,
+    "duration": 18.19
+  },
+  {
+    "file": "/assets/quran/سامي_الحسن/34_104.mp3",
+    "reciter_id": 34,
+    "reciter": "سامي الحسن",
+    "surah": 104,
+    "duration": 51.14
+  },
+  {
+    "file": "/assets/quran/سامي_الدوسري/35_110.mp3",
+    "reciter_id": 35,
+    "reciter": "سامي الدوسري",
+    "surah": 110,
+    "duration": 27.63
+  },
+  {
+    "file": "/assets/quran/سيد_رمضان/36_112.mp3",
+    "reciter_id": 36,
+    "reciter": "سيد رمضان",
+    "surah": 112,
+    "duration": 24.46
+  },
+  {
+    "file": "/assets/quran/شعبان_الصياد/37_103.mp3",
+    "reciter_id": 37,
+    "reciter": "شعبان الصياد",
+    "surah": 103,
+    "duration": 41.6
+  },
+  {
+    "file": "/assets/quran/شيرزاد_عبدالرحمن_طاهر/38_100.mp3",
+    "reciter_id": 38,
+    "reciter": "شيرزاد عبدالرحمن طاهر",
+    "surah": 100,
+    "duration": 55.09
+  },
+  {
+    "file": "/assets/quran/شيخ_أبو_بكر_الشاطري/4_111.mp3",
+    "reciter_id": 4,
+    "reciter": "شيخ أبو بكر الشاطري",
+    "surah": 111,
+    "duration": 32.42
+  },
+  {
+    "file": "/assets/quran/صالح_الصاهود/40_094.mp3",
+    "reciter_id": 40,
+    "reciter": "صالح الصاهود",
+    "surah": 94,
+    "duration": 32.76
+  },
+  {
+    "file": "/assets/quran/صالح_الهبدان/42_093.mp3",
+    "reciter_id": 42,
+    "reciter": "صالح الهبدان",
+    "surah": 93,
+    "duration": 51.7
+  },
+  {
+    "file": "/assets/quran/صلاح_بو_خاطر/46_106.mp3",
+    "reciter_id": 46,
+    "reciter": "صلاح بو خاطر",
+    "surah": 106,
+    "duration": 26.62
+  },
+  {
+    "file": "/assets/quran/مختار_الحاج/47_107.mp3",
+    "reciter_id": 47,
+    "reciter": "مختار الحاج",
+    "surah": 107,
+    "duration": 50.6
+  },
+  {
+    "file": "/assets/quran/عادل_ريان/48_106.mp3",
+    "reciter_id": 48,
+    "reciter": "عادل ريان",
+    "surah": 106,
+    "duration": 30.22
+  },
+  {
+    "file": "/assets/quran/عبدالبارئ_محمد/50_112.mp3",
+    "reciter_id": 50,
+    "reciter": "عبدالبارئ محمد",
+    "surah": 112,
+    "duration": 57.31
+  },
+  {
+    "file": "/assets/quran/عبدالباسط_عبدالصمد/51_094.mp3",
+    "reciter_id": 51,
+    "reciter": "عبدالباسط عبدالصمد",
+    "surah": 94,
+    "duration": 39.06
+  },
+  {
+    "file": "/assets/quran/عبدالعزيز_الأحمد/55_113.mp3",
+    "reciter_id": 55,
+    "reciter": "عبدالعزيز الأحمد",
+    "surah": 113,
+    "duration": 19.83
+  },
+  {
+    "file": "/assets/quran/عبدالعزيز_الزهراني/56_099.mp3",
+    "reciter_id": 56,
+    "reciter": "عبدالعزيز الزهراني",
+    "surah": 99,
+    "duration": 59.19
+  },
+  {
+    "file": "/assets/quran/عبدالله_البريمي/57_093.mp3",
+    "reciter_id": 57,
+    "reciter": "عبدالله البريمي",
+    "surah": 93,
+    "duration": 50.78
+  },
+  {
+    "file": "/assets/quran/عبدالله_البعيجان/58_109.mp3",
+    "reciter_id": 58,
+    "reciter": "عبدالله البعيجان",
+    "surah": 109,
+    "duration": 34.87
+  },
+  {
+    "file": "/assets/quran/عبدالله_المطرود/59_102.mp3",
+    "reciter_id": 59,
+    "reciter": "عبدالله المطرود",
+    "surah": 102,
+    "duration": 40.72
+  },
+  {
+    "file": "/assets/quran/أحمد_الحواشي/6_091.mp3",
+    "reciter_id": 6,
+    "reciter": "أحمد الحواشي",
+    "surah": 91,
+    "duration": 56.58
+  },
+  {
+    "file": "/assets/quran/عبدالله_بصفر/60_108.mp3",
+    "reciter_id": 60,
+    "reciter": "عبدالله بصفر",
+    "surah": 108,
+    "duration": 18.35
+  },
+  {
+    "file": "/assets/quran/عبدالله_خياط/61_107.mp3",
+    "reciter_id": 61,
+    "reciter": "عبدالله خياط",
+    "surah": 107,
+    "duration": 22.23
+  },
+  {
+    "file": "/assets/quran/عبدالله_عواد_الجهني/62_109.mp3",
+    "reciter_id": 62,
+    "reciter": "عبدالله عواد الجهني",
+    "surah": 109,
+    "duration": 24.0
+  },
+  {
+    "file": "/assets/quran/عبدالله_غيلان/63_110.mp3",
+    "reciter_id": 63,
+    "reciter": "عبدالله غيلان",
+    "surah": 110,
+    "duration": 28.98
+  },
+  {
+    "file": "/assets/quran/عبدالرشيد_صوفي/64_100.mp3",
+    "reciter_id": 64,
+    "reciter": "عبدالرشيد صوفي",
+    "surah": 100,
+    "duration": 48.82
+  },
+  {
+    "file": "/assets/quran/عبدالمحسن_الحارثي/66_094.mp3",
+    "reciter_id": 66,
+    "reciter": "عبدالمحسن الحارثي",
+    "surah": 94,
+    "duration": 29.88
+  },
+  {
+    "file": "/assets/quran/عبدالمحسن_القاسم/67_099.mp3",
+    "reciter_id": 67,
+    "reciter": "عبدالمحسن القاسم",
+    "surah": 99,
+    "duration": 40.74
+  },
+  {
+    "file": "/assets/quran/عبدالمحسن_العسكر/68_001.mp3",
+    "reciter_id": 68,
+    "reciter": "عبدالمحسن العسكر",
+    "surah": 1,
+    "duration": 35.37
+  },
+  {
+    "file": "/assets/quran/أحمد_سعود/7_097.mp3",
+    "reciter_id": 7,
+    "reciter": "أحمد سعود",
+    "surah": 97,
+    "duration": 48.32
+  },
+  {
+    "file": "/assets/quran/عبدالهادي_أحمد_كناكري/70_112.mp3",
+    "reciter_id": 70,
+    "reciter": "عبدالهادي أحمد كناكري",
+    "surah": 112,
+    "duration": 17.35
+  },
+  {
+    "file": "/assets/quran/عبدالودود_حنيف/71_101.mp3",
+    "reciter_id": 71,
+    "reciter": "عبدالودود حنيف",
+    "surah": 101,
+    "duration": 34.59
+  },
+  {
+    "file": "/assets/quran/عبدالولي_الأركاني/72_106.mp3",
+    "reciter_id": 72,
+    "reciter": "عبدالولي الأركاني",
+    "surah": 106,
+    "duration": 24.53
+  },
+  {
+    "file": "/assets/quran/علي_بن_عبدالرحمن_الحذيفي/74_110.mp3",
+    "reciter_id": 74,
+    "reciter": "علي بن عبدالرحمن الحذيفي",
+    "surah": 110,
+    "duration": 31.79
+  },
+  {
+    "file": "/assets/quran/علي_حجاج_السويسي/77_105.mp3",
+    "reciter_id": 77,
+    "reciter": "علي حجاج السويسي",
+    "surah": 105,
+    "duration": 31.25
+  },
+  {
+    "file": "/assets/quran/عماد_زهير_حافظ/78_110.mp3",
+    "reciter_id": 78,
+    "reciter": "عماد زهير حافظ",
+    "surah": 110,
+    "duration": 32.47
+  },
+  {
+    "file": "/assets/quran/عبدالعزيز_التركي/79_097.mp3",
+    "reciter_id": 79,
+    "reciter": "عبدالعزيز التركي",
+    "surah": 97,
+    "duration": 34.8
+  },
+  {
+    "file": "/assets/quran/أحمد_صابر/8_108.mp3",
+    "reciter_id": 8,
+    "reciter": "أحمد صابر",
+    "surah": 108,
+    "duration": 18.65
+  },
+  {
+    "file": "/assets/quran/عمر_القزابري/80_095.mp3",
+    "reciter_id": 80,
+    "reciter": "عمر القزابري",
+    "surah": 95,
+    "duration": 48.3
+  },
+  {
+    "file": "/assets/quran/فهد_الكندري/83_099.mp3",
+    "reciter_id": 83,
+    "reciter": "فهد الكندري",
+    "surah": 99,
+    "duration": 59.04
+  },
+  {
+    "file": "/assets/quran/فواز_الكعبي/84_109.mp3",
+    "reciter_id": 84,
+    "reciter": "فواز الكعبي",
+    "surah": 109,
+    "duration": 27.56
+  },
+  {
+    "file": "/assets/quran/لافي_العوني/85_097.mp3",
+    "reciter_id": 85,
+    "reciter": "لافي العوني",
+    "surah": 97,
+    "duration": 41.29
+  },
+  {
+    "file": "/assets/quran/نبيل_الرفاعي/87_095.mp3",
+    "reciter_id": 87,
+    "reciter": "نبيل الرفاعي",
+    "surah": 95,
+    "duration": 46.13
+  },
+  {
+    "file": "/assets/quran/وليد_الدليمي/90_106.mp3",
+    "reciter_id": 90,
+    "reciter": "وليد الدليمي",
+    "surah": 106,
+    "duration": 39.02
+  },
+  {
+    "file": "/assets/quran/وليد_النائحي/91_105.mp3",
+    "reciter_id": 91,
+    "reciter": "وليد النائحي",
+    "surah": 105,
+    "duration": 28.19
+  },
+  {
+    "file": "/assets/quran/ياسر_القرشي/93_104.mp3",
+    "reciter_id": 93,
+    "reciter": "ياسر القرشي",
+    "surah": 104,
+    "duration": 49.38
+  },
+  {
+    "file": "/assets/quran/ياسر_الفيلكاوي/94_113.mp3",
+    "reciter_id": 94,
+    "reciter": "ياسر الفيلكاوي",
+    "surah": 113,
+    "duration": 27.5
+  },
+  {
+    "file": "/assets/quran/ياسر_المزروعي/95_114.mp3",
+    "reciter_id": 95,
+    "reciter": "ياسر المزروعي ",
+    "surah": 114,
+    "duration": 28.38
+  },
+  {
+    "file": "/assets/quran/يحيى_حوا/96_108.mp3",
+    "reciter_id": 96,
+    "reciter": "يحيى حوا",
+    "surah": 108,
+    "duration": 19.76
+  },
+  {
+    "file": "/assets/quran/يوسف_الشويعي/97_102.mp3",
+    "reciter_id": 97,
+    "reciter": "يوسف الشويعي",
+    "surah": 102,
+    "duration": 43.0
+  },
+  {
+    "file": "/assets/quran/عبدالله_عبدل/98_102.mp3",
+    "reciter_id": 98,
+    "reciter": "عبدالله عبدل",
+    "surah": 102,
+    "duration": 50.52
+  },
+  {
+    "file": "/assets/quran/جمال_الدين_الزيلعي/194_001.mp3",
+    "reciter_id": 194,
+    "reciter": "جمال الدين الزيلعي",
+    "surah": 1,
+    "duration": 50.6
+  },
+  {
+    "file": "/assets/quran/خالد_الوهيبي/23_001.mp3",
+    "reciter_id": 23,
+    "reciter": "خالد الوهيبي",
+    "surah": 1,
+    "duration": 46.09
+  },
+  {
+    "file": "/assets/quran/world/Maher_Al_Meaqli/102_114.mp3",
+    "reciter_id": 102,
+    "reciter": "Maher Al Meaqli",
+    "surah": 114,
+    "duration": 54.99,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Mohammed_Al-Lohaidan/107_114.mp3",
+    "reciter_id": 107,
+    "reciter": "Mohammed Al-Lohaidan",
+    "surah": 114,
+    "duration": 35.29,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Mohammed_Ayyub/109_114.mp3",
+    "reciter_id": 109,
+    "reciter": "Mohammed Ayyub",
+    "surah": 114,
+    "duration": 30.54,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Mohammed_Jibreel/111_114.mp3",
+    "reciter_id": 111,
+    "reciter": "Mohammed Jibreel",
+    "surah": 114,
+    "duration": 32.58,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Mahmoud_Khalil_Al-Hussary/118_114.mp3",
+    "reciter_id": 118,
+    "reciter": "Mahmoud Khalil Al-Hussary",
+    "surah": 114,
+    "duration": 51.77,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Idrees_Abkr/12_114.mp3",
+    "reciter_id": 12,
+    "reciter": "Idrees Abkr",
+    "surah": 114,
+    "duration": 36.39,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Mahmoud_Ali_Albanna/121_113.mp3",
+    "reciter_id": 121,
+    "reciter": "Mahmoud Ali  Albanna",
+    "surah": 113,
+    "duration": 55.09,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Mustafa_Ismail/125_112.mp3",
+    "reciter_id": 125,
+    "reciter": "Mustafa Ismail",
+    "surah": 112,
+    "duration": 38.74,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Jamaan_Alosaimi/181_113.mp3",
+    "reciter_id": 181,
+    "reciter": "Jamaan Alosaimi",
+    "surah": 113,
+    "duration": 38.5,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Khalid_Al-Jileel/20_114.mp3",
+    "reciter_id": 20,
+    "reciter": "Khalid Al-Jileel",
+    "surah": 114,
+    "duration": 33.15,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Ahmed_Al-trabulsi/201_114.mp3",
+    "reciter_id": 201,
+    "reciter": "Ahmed Al-trabulsi",
+    "surah": 114,
+    "duration": 34.27,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Mohammed_Osman_Khan/206_114.mp3",
+    "reciter_id": 206,
+    "reciter": "Mohammed Osman Khan",
+    "surah": 114,
+    "duration": 37.6,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Hassan_Aldaghriri/21183_114.mp3",
+    "reciter_id": 21183,
+    "reciter": "Hassan Aldaghriri",
+    "surah": 114,
+    "duration": 40.06,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Junaid_Adam_Abdullah/21186_114.mp3",
+    "reciter_id": 21186,
+    "reciter": "Junaid Adam Abdullah",
+    "surah": 114,
+    "duration": 43.96,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Alijon_Qori/21196_114.mp3",
+    "reciter_id": 21196,
+    "reciter": "Alijon Qori",
+    "surah": 114,
+    "duration": 42.5,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Bandar_Balilah/217_114.mp3",
+    "reciter_id": 217,
+    "reciter": "Bandar Balilah",
+    "surah": 114,
+    "duration": 38.27,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Mohammad_Khalil_Al-Qari/229_114.mp3",
+    "reciter_id": 229,
+    "reciter": "Mohammad Khalil Al-Qari",
+    "surah": 114,
+    "duration": 45.5,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Abdulrahman_Al-Majed/236_114.mp3",
+    "reciter_id": 236,
+    "reciter": "Abdulrahman Al-Majed",
+    "surah": 114,
+    "duration": 43.81,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Abdullah_Al-Mousa/243_112.mp3",
+    "reciter_id": 243,
+    "reciter": "Abdullah Al-Mousa",
+    "surah": 112,
+    "duration": 41.69,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Abdullah_Al-Khalaf/244_114.mp3",
+    "reciter_id": 244,
+    "reciter": "Abdullah Al-Khalaf",
+    "surah": 114,
+    "duration": 37.41,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Mansour_Al-Salemi/245_114.mp3",
+    "reciter_id": 245,
+    "reciter": "Mansour Al-Salemi",
+    "surah": 114,
+    "duration": 45.69,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Dawood_Hamza/25_114.mp3",
+    "reciter_id": 25,
+    "reciter": "Dawood Hamza",
+    "surah": 114,
+    "duration": 33.75,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Islam_Sobhi/253_114.mp3",
+    "reciter_id": 253,
+    "reciter": "Islam Sobhi",
+    "surah": 114,
+    "duration": 34.33,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Ahmed_Shaheen/256_114.mp3",
+    "reciter_id": 256,
+    "reciter": "Ahmed Shaheen",
+    "surah": 114,
+    "duration": 29.6,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Abdullah_Kamil/267_114.mp3",
+    "reciter_id": 267,
+    "reciter": "Abdullah Kamil",
+    "surah": 114,
+    "duration": 41.78,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Peshawa_Qadr_Al-Kurdi/268_114.mp3",
+    "reciter_id": 268,
+    "reciter": "Peshawa Qadr Al-Kurdi",
+    "surah": 114,
+    "duration": 41.06,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Haitham_Aldukhain/273_114.mp3",
+    "reciter_id": 273,
+    "reciter": "Haitham Aldukhain",
+    "surah": 114,
+    "duration": 42.55,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Ahmad_Issa_Al_Maasaraawi/278_114.mp3",
+    "reciter_id": 278,
+    "reciter": "Ahmad Issa Al Maasaraawi",
+    "surah": 114,
+    "duration": 32.37,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Sayed_Ahmad_Hashemi/282_114.mp3",
+    "reciter_id": 282,
+    "reciter": "Sayed Ahmad Hashemi",
+    "surah": 114,
+    "duration": 50.3,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Issa_Omar_Sanankoua/288_114.mp3",
+    "reciter_id": 288,
+    "reciter": "Issa Omar Sanankoua",
+    "surah": 114,
+    "duration": 34.01,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Haroon_Baqai/289_114.mp3",
+    "reciter_id": 289,
+    "reciter": "Haroon Baqai",
+    "surah": 114,
+    "duration": 39.75,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Ibrahim_Al-Asiri/3_114.mp3",
+    "reciter_id": 3,
+    "reciter": "Ibrahim Al-Asiri",
+    "surah": 114,
+    "duration": 32.21,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Saad_Al-Ghamdi/30_114.mp3",
+    "reciter_id": 30,
+    "reciter": "Saad Al-Ghamdi",
+    "surah": 114,
+    "duration": 36.1,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Saleh_Alshamrani/300_114.mp3",
+    "reciter_id": 300,
+    "reciter": "Saleh Alshamrani",
+    "surah": 114,
+    "duration": 35.42,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Anas_Alemadi/302_114.mp3",
+    "reciter_id": 302,
+    "reciter": "Anas Alemadi",
+    "surah": 114,
+    "duration": 36.08,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Saud_Al-Shuraim/31_114.mp3",
+    "reciter_id": 31,
+    "reciter": "Saud Al-Shuraim",
+    "surah": 114,
+    "duration": 23.67,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Zaki_Daghistani/33_114.mp3",
+    "reciter_id": 33,
+    "reciter": "Zaki Daghistani",
+    "surah": 114,
+    "duration": 41.51,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Saber_Abdulhakm/39_114.mp3",
+    "reciter_id": 39,
+    "reciter": "Saber Abdulhakm",
+    "surah": 114,
+    "duration": 31.37,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Salah_Albudair/43_114.mp3",
+    "reciter_id": 43,
+    "reciter": "Salah Albudair",
+    "surah": 114,
+    "duration": 35.35,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Salah_Alhashim/44_001.mp3",
+    "reciter_id": 44,
+    "reciter": "Salah Alhashim",
+    "surah": 1,
+    "duration": 39.47,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Abdelbari_Al-Toubayti/49_114.mp3",
+    "reciter_id": 49,
+    "reciter": "Abdelbari Al-Toubayti",
+    "surah": 114,
+    "duration": 29.07,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Ahmad_Al-Ajmy/5_114.mp3",
+    "reciter_id": 5,
+    "reciter": "Ahmad Al-Ajmy",
+    "surah": 114,
+    "duration": 22.16,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Abdulrahman_Alsudaes/54_114.mp3",
+    "reciter_id": 54,
+    "reciter": "Abdulrahman Alsudaes",
+    "surah": 114,
+    "duration": 25.1,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Abdulmohsin_Al-Obaikan/69_114.mp3",
+    "reciter_id": 69,
+    "reciter": "Abdulmohsin Al-Obaikan",
+    "surah": 114,
+    "duration": 22.96,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Ali_Jaber/76_114.mp3",
+    "reciter_id": 76,
+    "reciter": "Ali Jaber",
+    "surah": 114,
+    "duration": 45.01,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Fares_Abbad/81_114.mp3",
+    "reciter_id": 81,
+    "reciter": "Fares Abbad",
+    "surah": 114,
+    "duration": 29.57,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Nasser_Alqatami/86_114.mp3",
+    "reciter_id": 86,
+    "reciter": "Nasser Alqatami",
+    "surah": 114,
+    "duration": 40.7,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Neamah_Al-Hassan/88_114.mp3",
+    "reciter_id": 88,
+    "reciter": "Neamah Al-Hassan",
+    "surah": 114,
+    "duration": 50.73,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Hani_Arrifai/89_114.mp3",
+    "reciter_id": 89,
+    "reciter": "Hani Arrifai",
+    "surah": 114,
+    "duration": 43.08,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Ahmad_Nauina/9_114.mp3",
+    "reciter_id": 9,
+    "reciter": "Ahmad Nauina",
+    "surah": 114,
+    "duration": 37.91,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/world/Yasser_Al-Dosari/92_114.mp3",
+    "reciter_id": 92,
+    "reciter": "Yasser Al-Dosari",
+    "surah": 114,
+    "duration": 35.74,
+    "region": "world"
+  },
+  {
+    "file": "/assets/quran/manual/01_Saoud_Shuraim____سعود_الشريم_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "Saoud Shuraim __ سعود الشريم(M4A_128K)",
+    "surah": null,
+    "duration": 11.96,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/02_وقالوا_اتخذ_الرحمن_ولدا__-_تلاوة_مؤثرة_للشيخ_عبدالله_كامل_رحمه_اللّه_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "_ وقالوا اتخذ الرحمن ولدا _- تلاوة مؤثرة  للشيخ عبدالله كامل رحمه اللّه.😔✨💖(M4A_128K)",
+    "surah": null,
+    "duration": 36.87,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/03_وَإِذَا_سَأَلَكَ_عِبَادِي_عَنِّي_فَإِنِّي_قَرِيبٌ___M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "_ وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ _(M4A_128K)",
+    "surah": null,
+    "duration": 23.85,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/04_القرآن_الكريم_سورة_طه____بصوت_الشيخ_خالد_الجليل__المصحف___سورة_طه_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "___القرآن الكريم سورة طه ___بصوت الشيخ خالد الجليل _المصحف __سورة طه(M4A_128K)",
+    "surah": null,
+    "duration": 60.09,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/05_أروع_تلاوات_الشيخ_عبدالله_الموسى_جودة_عالية__M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "_أروع تلاوات الشيخ عبدالله الموسى – جودة عالية_(M4A_128K)",
+    "surah": null,
+    "duration": 39.66,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/06_مأواكم_النار__من_سورة_الحديد____الشيخ_د_محمد_اللحيدان_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "_مأواكم النار_ من سورة الحديد __ الشيخ د. محمد اللحيدان(M4A_128K)",
+    "surah": null,
+    "duration": 91.83,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/07_مصطفى__إسماعيل_رحمه_الله__نهاوند_عظيم_ملك_النهاوند__سورة__الأحزاب_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "_مصطفى _إسماعيل رحمه الله _نهاوند عظيم ملك النهاوند _سورة _الأحزاب(M4A_128K)",
+    "surah": null,
+    "duration": 20.5,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/08_إن_الله_مع_الذين_اتقوا___الشيخ_محمد_جبريل___مركز_الهداية_لندن_٢٠٢٢___التلاوة_الكاملة_M4A_12.mp3",
+    "reciter_id": null,
+    "reciter": "إن الله مع الذين اتقوا _ الشيخ محمد جبريل _ مركز الهداية لندن ٢٠٢٢ _ التلاوة الكاملة (M4A_12",
+    "surah": null,
+    "duration": 32.14,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/09_اترك_أثرًا_طيبً____القارئ_ياسر_الدوسري_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "اترك أثرًا طيبً ✍️🤍 __ القارئ ياسر الدوسري(M4A_128K)",
+    "surah": null,
+    "duration": 160.15,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/10_اكتب_شئ_تؤجر_عليه____القارئ_هيثم_الدخين___سورة_فاطر_١٥_الى_١٧____سورة_فاطر__هيث_M4A_1.mp3",
+    "reciter_id": null,
+    "reciter": "اكتب شئ تؤجر عليه ✍️🤍🍃 __ القارئ هيثم الدخين _ سورة فاطر ١٥ الى ١٧ _  _سورة_فاطر _هيث(M4A_1",
+    "surah": null,
+    "duration": 31.97,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/11_التلاوة_الشهيرة_للشيخ_الطبلاوي_من_سورة_الحشر__الطبلاوي__سورة_الحشر_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "التلاوة الشهيرة للشيخ الطبلاوي من سورة الحشر .. _الطبلاوي _سورة_الحشر(M4A_128K)",
+    "surah": null,
+    "duration": 40.82,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/12_الذين_آمنوا_وتطمئن_قلوبهم_بذكر_الله____الشيخ_محمود_علي_البنا_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "الذين آمنوا وتطمئن قلوبهم بذكر الله __ الشيخ محمود علي البنا(M4A_128K)",
+    "surah": null,
+    "duration": 22.22,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/13_الشيخ_أحمد_عيسى_المعصراوي_في_ريعان_شبابه__قرآن__القراءات_العشر__القرآن_الكريم__المع_M4A_12.mp3",
+    "reciter_id": null,
+    "reciter": "الشيخ أحمد عيسى المعصراوي في ريعان شبابه _قرآن _القراءات_العشر _القرآن_الكريم _المع(M4A_12",
+    "surah": null,
+    "duration": 42.68,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/14_الشيخ_بندر_بليلة___سورة_الأنعام_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "الشيخ بندر بليلة _ سورة الأنعام(M4A_128K)",
+    "surah": null,
+    "duration": 27.21,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/15_الشيخ_عبد_الفتاح_الشعشاعي_من_سورة_الأنفال_مقام_شوق_اور_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "الشيخ عبد الفتاح الشعشاعي من سورة الأنفال مقام شوق اور(M4A_128K)",
+    "surah": null,
+    "duration": 18.41,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/16_الشيخ_محمد_سلامة_من_سورة_الأنبياء___مقام_عشاق_مصري_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "الشيخ محمد سلامة من سورة الأنبياء _ مقام عشاق مصري(M4A_128K)",
+    "surah": null,
+    "duration": 14.23,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/17_القارئ_الشيخ_ادريس_ابكر_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "القارئ الشيخ ادريس ابكر(M4A_128K)",
+    "surah": null,
+    "duration": 12.98,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/18_تلاوة_الشيخ_أحمد_الطرابلسي_بإفتتاح_مؤتمر_القمة_الإسلامي_الخامس_في_دولة_الكويت_-_ين_M4A_12.mp3",
+    "reciter_id": null,
+    "reciter": "تلاوة الشيخ أحمد الطرابلسي بإفتتاح مؤتمر القمة الإسلامي الخامس في دولة الكويت - ين(M4A_12",
+    "surah": null,
+    "duration": 59.58,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/19_تلاوة_بديعة_ورائعة____للشيخ_علي_الحذيفي_من_سورة_الزمر_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "تلاوة بديعة ورائعة_ _ للشيخ علي الحذيفي من سورة الزمر ♥️(M4A_128K)",
+    "surah": null,
+    "duration": 44.33,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/20_تلاوة_خاشعة_جداً_بصوت_القارئ_فارس_عباد_تلاوة_خاشعة_ارح_سمعك_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "تلاوة خاشعة جداً بصوت القارئ فارس عباد تلاوة خاشعة ارح سمعك 😴🎧🥺(M4A_128K)",
+    "surah": null,
+    "duration": 22.73,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/21_تلاوة_مؤثرة_للشيخ_ابو_بكر_الشاطري_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "تلاوة مؤثرة  للشيخ ابو بكر الشاطري😍(M4A_128K)",
+    "surah": null,
+    "duration": 28.05,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/22_تلاوة_نادرة_جداً_تبكي_السامعين_لفضيلة_الشيخ_د_عبدالرحمن_السديس____فإذا_جاءت_الصاخ_M4A_1.mp3",
+    "reciter_id": null,
+    "reciter": "تلاوة نادرة جداً تبكي السامعين💔 لفضيلة الشيخ د.عبدالرحمن السديس __ فإذا جاءت الصاخ(M4A_1",
+    "surah": null,
+    "duration": 59.0,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/23_تلاوة_هادئة_بصوت_ناصر_القطامي_ارح_سمعك_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "تلاوة هادئة بصوت ناصر القطامي ارح سمعك 🤍🎧(M4A_128K)",
+    "surah": null,
+    "duration": 28.49,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/24_تلاوة_هادئة_ومريحة___قران_كريم_بصوت_القارئ_إسلام_صبحي___ارح_سمعك_بالقرآن_الكريم___راح_M4A_1.mp3",
+    "reciter_id": null,
+    "reciter": "تلاوة هادئة ومريحة _ قران كريم بصوت القارئ إسلام صبحي _ ارح سمعك بالقرآن الكريم _ راح(M4A_1",
+    "surah": null,
+    "duration": 28.19,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/25_تلاوه_خاشعة_تفوق_الوصف_للشيخ_سعد_الغامدي__اكسبلور__المصحف_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "تلاوه خاشعة تفوق الوصف  للشيخ سعد الغامدي  _اكسبلور _المصحف(M4A_128K)",
+    "surah": null,
+    "duration": 49.39,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/26_جديد_عبدالرحمن_مسعد_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "جديد عبدالرحمن مسعد(M4A_128K)",
+    "surah": null,
+    "duration": 37.06,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/27_سورة_البقرة_-_الآيات_152-155_-_بصوت_الشيخ_احمد_بن_علي_العجمي_كرومات_جاهزة_لتصميم__كرومات_M4A_1.mp3",
+    "reciter_id": null,
+    "reciter": "سورة البقرة - الآيات 152-155 - بصوت الشيخ احمد بن علي العجمي_كرومات_جاهزة_لتصميم _كرومات(M4A_1",
+    "surah": null,
+    "duration": 51.29,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/28_عندما_يأمرك_الله_بالعدل_حتى_لو_كان_ضد_نفسك____ماهر_المعيقلي_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "عندما يأمرك الله بالعدل حتى لو كان ضد نفسك_ ⚖️ _ ماهر المعيقلي(M4A_128K)",
+    "surah": null,
+    "duration": 36.97,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/29_فكان_قاب_قوسين_أو_أدنى_-_الشيخ__أحمد_نعينع_حفظه_الله_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "فكان قاب قوسين أو أدنى - الشيخ _أحمد_نعينع (حفظه الله)(M4A_128K)",
+    "surah": null,
+    "duration": 35.76,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/30_قرآن_الصباح،_الشيخ_محمد_رفعت،_هُوَ_الَّذِي_جَعَلَ_لَكُمُ_اللَّيْلَ_لِتَسْكُنُوا_ف_M4A_1.mp3",
+    "reciter_id": null,
+    "reciter": "قرآن الصباح، الشيخ محمد رفعت، هُوَ الَّذِي جَعَلَ لَكُمُ اللَّيْلَ لِتَسْكُنُوا ف(M4A_1",
+    "surah": null,
+    "duration": 38.64,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/31_قراءة_وتلاوة_جميله_للشيخ_علي_جابر_-_الحرم_المكي_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "قراءة وتلاوة جميله للشيخ علي جابر - الحرم المكي(M4A_128K)",
+    "surah": null,
+    "duration": 11.73,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/32_منصور_السالمي_سورة_يوسف_Mansour_Al_Salmi_Yusuf__اكسبلور__quransurah__صوت_جميل__قرآن_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "منصور السالمي سورة يوسف Mansour Al Salmi Yusuf  _اكسبلور _quransurah _صوت_جميل _قرآن(M4A_128K)",
+    "surah": null,
+    "duration": 37.29,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/33_هَـذِهِ_بِضَاعَتُنَا_رُدَّتْ_إِلَيْنَا_وَنَمِيرُ_أَهْلَنَا_وَنَحْفَظُ_أَخَانَا___M4A_1.mp3",
+    "reciter_id": null,
+    "reciter": "هَـذِهِ بِضَاعَتُنَا رُدَّتْ إِلَيْنَا وَنَمِيرُ أَهْلَنَا وَنَحْفَظُ أَخَانَا _(M4A_1",
+    "surah": null,
+    "duration": 33.83,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/34_وأن_ليس_للإنسان_إلى_ماسعى___محمود_الحصري_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "وأن ليس للإنسان إلى ماسعى _ محمود الحصري(M4A_128K)",
+    "surah": null,
+    "duration": 19.37,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/35_وما_تلك_بيمينك_ياموسي___الشيخ_كامل_يوسف_البهتيمي_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "وما تلك بيمينك ياموسي _ الشيخ كامل يوسف البهتيمي 📻(M4A_128K)",
+    "surah": null,
+    "duration": 27.12,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/36_ومن_أظلم_ممن_افترى_على_الله_كذبا___تلاوة_خاشعة_ومؤثرة_لا_توصف__-_للشيخ_محمد_أيوب_رحمه_M4A_1.mp3",
+    "reciter_id": null,
+    "reciter": "ومن أظلم ممن افترى على الله كذبا.._ تلاوة خاشعة ومؤثرة لا توصف_ - للشيخ محمد أيوب رحمه(M4A_1",
+    "surah": null,
+    "duration": 37.15,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/37_وَمَا_كَانَ_اللَّهُ_مُعَذِّبَهُمْ_وَهُمْ_يَسْتَغْفِرُونَ_-_الشيخ___عبدالله_الجهني_M4A_12.mp3",
+    "reciter_id": null,
+    "reciter": "وَمَا كَانَ اللَّهُ مُعَذِّبَهُمْ وَهُمْ يَسْتَغْفِرُونَ - الشيخ _ عبدالله الجهني(M4A_12",
+    "surah": null,
+    "duration": 7.52,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/38_يا_قَومِ_إِنَّما_هذِهِ_الحَياةُ_الدُّنيا_مَتاعٌ___محمد_صديق_المنشاوي___سورة_غافر_M4A_128K.mp3",
+    "reciter_id": null,
+    "reciter": "يا قَومِ إِنَّما هذِهِ الحَياةُ الدُّنيا مَتاعٌ _ محمد صديق المنشاوي _ سورة غافر(M4A_128K)",
+    "surah": null,
+    "duration": 24.68,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/manual/39_إِنَّمَا_نُطۡعِمُكُمۡ_لِوَجۡهِ_ٱللَّهِ_تلاوة_خاشعة_بديعة_للشيخ_هاني_الرفاعي_M4A_12.mp3",
+    "reciter_id": null,
+    "reciter": "﴿ إِنَّمَا نُطۡعِمُكُمۡ لِوَجۡهِ ٱللَّهِ ﴾ تلاوة خاشعة بديعة للشيخ هاني الرفاعي (M4A_12",
+    "surah": null,
+    "duration": 52.85,
+    "region": "manual"
+  },
+  {
+    "file": "/assets/quran/retry/128_110_Muamar_From_Indonesia.mp3",
+    "reciter_id": 128,
+    "reciter": "Muamar (From Indonesia)",
+    "surah": 110,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry/188_114_Abdulghani_Abdullah.mp3",
+    "reciter_id": 188,
+    "reciter": "Abdulghani Abdullah",
+    "surah": 114,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry/241_100_Mohammad_Refat.mp3",
+    "reciter_id": 241,
+    "reciter": "Mohammad Refat",
+    "surah": 100,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry/28_85_Zakaria_Hamamah.mp3",
+    "reciter_id": 28,
+    "reciter": "Zakaria Hamamah",
+    "surah": 85,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry/41_86_Saleh_Al-Talib.mp3",
+    "reciter_id": 41,
+    "reciter": "Saleh Al-Talib",
+    "surah": 86,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry-all/153_1_56_Akhil_Abdulhayy_Rawa.mp3",
+    "reciter_id": 153,
+    "reciter": "Akhil Abdulhayy Rawa",
+    "surah": 56,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry-all/154_1_76_Ustaz_Zamri.mp3",
+    "reciter_id": 154,
+    "reciter": "Ustaz Zamri",
+    "surah": 76,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry-all/167_1_60_Wasel_Almethen.mp3",
+    "reciter_id": 167,
+    "reciter": "Wasel Almethen",
+    "surah": 60,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry-all/183_1_35_Rodziah_Abdulrahman.mp3",
+    "reciter_id": 183,
+    "reciter": "Rodziah Abdulrahman",
+    "surah": 35,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry-all/184_1_36_Rogayah_Sulong.mp3",
+    "reciter_id": 184,
+    "reciter": "Rogayah Sulong",
+    "surah": 36,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry-all/185_1_22_Sapinah_Mamat.mp3",
+    "reciter_id": 185,
+    "reciter": "Sapinah Mamat",
+    "surah": 22,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry-all/187_1_75_Saidin_Abdulrahman.mp3",
+    "reciter_id": 187,
+    "reciter": "Saidin Abdulrahman",
+    "surah": 75,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry-all/189_1_75_Abdullah_Fahmi.mp3",
+    "reciter_id": 189,
+    "reciter": "Abdullah Fahmi",
+    "surah": 75,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry-all/190_1_31_Muhammad_Al-Hafiz.mp3",
+    "reciter_id": 190,
+    "reciter": "Muhammad Al-Hafiz",
+    "surah": 31,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry-all/191_1_67_Mohammed_Hafas_Ali.mp3",
+    "reciter_id": 191,
+    "reciter": "Mohammed Hafas Ali",
+    "surah": 67,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry-all/209_1_56_Wishear_Hayder_Arbili.mp3",
+    "reciter_id": 209,
+    "reciter": "Wishear Hayder Arbili",
+    "surah": 56,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry-all/27_1_50_Rachid_Belalya.mp3",
+    "reciter_id": 27,
+    "reciter": "Rachid Belalya",
+    "surah": 50,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry-all/303_1_75_Abdulmalik_Alaskar.mp3",
+    "reciter_id": 303,
+    "reciter": "Abdulmalik Alaskar",
+    "surah": 75,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry-all/306_1_56_Abdullah_Al-Mishal.mp3",
+    "reciter_id": 306,
+    "reciter": "Abdullah Al-Mishal",
+    "surah": 56,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry-all/73_1_57_Ali_Abo-Hashim.mp3",
+    "reciter_id": 73,
+    "reciter": "Ali Abo-Hashim",
+    "surah": 57,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry-all/82_1_76_Fahad_Al-Otaibi.mp3",
+    "reciter_id": 82,
+    "reciter": "Fahad Al-Otaibi",
+    "surah": 76,
+    "duration": 60.0,
+    "region": "retry"
+  },
+  {
+    "file": "/assets/quran/retry-all/21200_1_79_穆罕默德_迪比罗夫.mp3",
+    "reciter_id": 21200,
+    "reciter": "穆罕默德·迪比罗夫",
+    "surah": 79,
+    "duration": 60.0,
+    "region": "retry"
+  }
+]

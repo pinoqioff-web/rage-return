@@ -70,8 +70,66 @@ body{background:transparent!important}
     <div class="quran-title">🎧 خُذ دقيقة من وقتك 🤍</div>
     <div class="quran-sub">استمع للقرآن… واهدأ قلبك</div>
   </div>
-  <audio id="quranAudio" src="/assets/quran-rain.mp3" preload="none"></audio>
-  <button onclick="const a=document.getElementById('quranAudio');a.paused?a.play():a.pause()" aria-label="تشغيل القرآن">▶</button>
+  <audio id="quranAudio" preload="none"></audio>
+  <button id="quranBtn" aria-label="تشغيل القرآن">▶</button>
+</div>
+<script>
+(async()=>{
+  const audio=document.getElementById("quranAudio");
+  const btn=document.getElementById("quranBtn");
+  let files=[];
+  let used=[];
+
+  try{
+    const r=await fetch("/assets/quran/index.json",{cache:"no-store"});
+    files=await r.json();
+    files=files.map(x=>x.file).filter(Boolean);
+  }catch(e){
+    console.error("Quran index error:",e);
+  }
+
+  function nextRandom(){
+    if(!files.length)return null;
+    if(!used.length)used=files.slice();
+
+    const i=Math.floor(Math.random()*used.length);
+    return used.splice(i,1)[0];
+  }
+
+  btn.addEventListener("click",async()=>{
+    try{
+      if(!audio.paused){
+        audio.pause();
+        btn.textContent="▶";
+        return;
+      }
+
+      if(!audio.src || audio.ended){
+        const file=nextRandom();
+        if(!file)return;
+
+        audio.src=file;
+        audio.load();
+      }
+
+      await audio.play();
+      btn.textContent="❚❚";
+
+    }catch(e){
+      console.error("Quran playback error:",e);
+      btn.textContent="▶";
+    }
+  });
+
+  audio.addEventListener("ended",()=>{
+    btn.textContent="▶";
+  });
+
+  audio.addEventListener("pause",()=>{
+    if(!audio.ended)btn.textContent="▶";
+  });
+})();
+</script>
 </div>
 <style>
 .quran-mini{display:flex;align-items:center;justify-content:center;gap:8px;margin:7px auto 10px;padding:3px 9px;width:max-content;max-width:94%;text-align:center}
