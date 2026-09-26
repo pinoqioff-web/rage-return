@@ -71,62 +71,102 @@ body{background:transparent!important}
     <div class="quran-sub">استمع للقرآن… واهدأ قلبك</div>
   </div>
   <audio id="quranAudio" preload="none"></audio>
-  <button id="quranBtn" aria-label="تشغيل القرآن">▶</button>
+<audio id="quranSfx" preload="none"></audio>
+<button id="quranBtn" aria-label="تشغيل القرآن">▶</button>
 </div>
 <script>
 (async()=>{
   const audio=document.getElementById("quranAudio");
+  const sfx=document.getElementById("quranSfx");
   const btn=document.getElementById("quranBtn");
-  let files=[];
-  let used=[];
+
+  let quranFiles=[];
+  let sfxFiles=[];
+  let usedQuran=[];
+  let usedSfx=[];
 
   try{
     const r=await fetch("/assets/quran/index.json",{cache:"no-store"});
-    files=await r.json();
-    files=files.map(x=>x.file).filter(Boolean);
+    const data=await r.json();
+    quranFiles=data.map(x=>x.file).filter(Boolean);
   }catch(e){
     console.error("Quran index error:",e);
   }
 
-  function nextRandom(){
-    if(!files.length)return null;
-    if(!used.length)used=files.slice();
+  try{
+    const r=await fetch("/assets/sfx/index.json",{cache:"no-store"});
+    const data=await r.json();
+    sfxFiles=(data.files||[])
+      .filter(x=>x.enabled!==false && x.path)
+      .map(x=>({
+        path:x.path,
+        volume:typeof x.volume==="number" ? x.volume : 0.03
+      }));
+  }catch(e){
+    console.error("SFX index error:",e);
+  }
 
+  function nextRandom(pool,used){
+    if(!pool.length)return null;
+    if(!used.length)used.push(...pool);
     const i=Math.floor(Math.random()*used.length);
     return used.splice(i,1)[0];
   }
 
+  function stopAll(){
+    audio.pause();
+    sfx.pause();
+    audio.currentTime=0;
+    sfx.currentTime=0;
+    btn.textContent="▶";
+  }
+
   btn.addEventListener("click",async()=>{
     try{
-      if(!audio.paused){
-        audio.pause();
-        btn.textContent="▶";
+      if(!audio.paused || !sfx.paused){
+        stopAll();
         return;
       }
 
-      if(!audio.src || audio.ended){
-        const file=nextRandom();
-        if(!file)return;
+      const quran=nextRandom(quranFiles,usedQuran);
+      if(!quran)return;
 
-        audio.src=file;
-        audio.load();
+      const effect=nextRandom(sfxFiles,usedSfx);
+
+      audio.src=quran;
+      audio.volume=0.85;
+      audio.load();
+
+      if(effect){
+        sfx.src=effect.path;
+        sfx.volume=Math.min(effect.volume,0.06);
+        sfx.loop=true;
+        sfx.load();
       }
 
       await audio.play();
-      btn.textContent="❚❚";
 
+      if(effect){
+        try{
+          await sfx.play();
+        }catch(e){
+          console.error("SFX playback error:",e);
+        }
+      }
+
+      btn.textContent="❚❚";
     }catch(e){
       console.error("Quran playback error:",e);
-      btn.textContent="▶";
+      stopAll();
     }
   });
 
   audio.addEventListener("ended",()=>{
-    btn.textContent="▶";
+    stopAll();
   });
 
-  audio.addEventListener("pause",()=>{
-    if(!audio.ended)btn.textContent="▶";
+  audio.addEventListener("error",()=>{
+    stopAll();
   });
 })();
 </script>

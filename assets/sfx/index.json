@@ -1,0 +1,149 @@
+{
+  "version": 3,
+  "license_policy": "only Public Domain or CC0",
+  "quran_priority": true,
+  "default_quran_volume": 0.85,
+  "default_sfx_volume": 0.04,
+  "max_sfx_volume": 0.06,
+  "categories": [
+    "rain",
+    "thunder",
+    "wind",
+    "birds",
+    "water",
+    "sea",
+    "forest",
+    "night",
+    "fire",
+    "animals",
+    "atmosphere"
+  ],
+  "files": [
+    {
+      "file": "birds/birds_garden_cc0.ogg",
+      "path": "/assets/sfx/birds/birds_garden_cc0.ogg",
+      "name": "Birds Garden",
+      "category": "birds",
+      "license": "CC0",
+      "enabled": true,
+      "volume": 0.035
+    },
+    {
+      "file": "birds/birds_garden_pd.ogg",
+      "path": "/assets/sfx/birds/birds_garden_pd.ogg",
+      "name": "Birds Garden",
+      "category": "birds",
+      "license": "Public Domain",
+      "enabled": true,
+      "volume": 0.035
+    },
+    {
+      "file": "birds/birds_forest.ogg",
+      "path": "/assets/sfx/birds/birds_forest.ogg",
+      "name": "Birds Forest",
+      "category": "birds",
+      "license": "Public Domain",
+      "enabled": true,
+      "volume": 0.035
+    },
+    {
+      "file": "birds/birdsong_sunny_pd.ogg",
+      "path": "/assets/sfx/birds/birdsong_sunny_pd.ogg",
+      "name": "Birdsong Sunny Day",
+      "category": "birds",
+      "license": "Public Domain",
+      "enabled": true,
+      "volume": 0.035
+    },
+    {
+      "file": "birds/bird_singing_pd.ogg",
+      "path": "/assets/sfx/birds/bird_singing_pd.ogg",
+      "name": "Bird Singing",
+      "category": "birds",
+      "license": "Public Domain",
+      "enabled": true,
+      "volume": 0.035
+    },
+    {
+      "file": "rain/rain_thunder_birds.ogg",
+      "path": "/assets/sfx/rain/rain_thunder_birds.ogg",
+      "name": "Rain, Thunder and Birds",
+      "category": "rain",
+      "license": "Public Domain",
+      "enabled": true,
+      "volume": 0.025
+    },
+    {
+      "file": "rain/rain_heavy.ogg",
+      "path": "/assets/sfx/rain/rain_heavy.ogg",
+      "name": "Heavy Rain",
+      "category": "rain",
+      "license": "Public Domain",
+      "enabled": true,
+      "volume": 0.03
+    },
+    {
+      "file": "rain/rain_soft.ogg",
+      "path": "/assets/sfx/rain/rain_soft.ogg",
+      "name": "Soft Rain",
+      "category": "rain",
+      "license": "Public Domain",
+      "enabled": true,
+      "volume": 0.035
+    },
+    {
+      "file": "water/pebble_beach_pd.ogg",
+      "path": "/assets/sfx/water/pebble_beach_pd.ogg",
+      "name": "Pebble Beach Water",
+      "category": "water",
+      "license": "Public Domain",
+      "enabled": true,
+      "volume": 0.035
+    },
+    {
+      "file": "water/sakia_mill_water_pd.ogg",
+      "path": "/assets/sfx/water/sakia_mill_water_pd.ogg",
+      "name": "Sakia Water",
+      "category": "water",
+      "license": "Public Domain",
+      "enabled": true,
+      "volume": 0.035
+    },
+    {
+      "file": "water/sakia_waterwheel_cc0.ogg",
+      "path": "/assets/sfx/water/sakia_waterwheel_cc0.ogg",
+      "name": "Waterwheel / Sakia",
+      "category": "water",
+      "license": "CC0",
+      "enabled": true,
+      "volume": 0.035
+    },
+    {
+      "file": "wind/howling_wind.ogg",
+      "path": "/assets/sfx/wind/howling_wind.ogg",
+      "name": "Wind",
+      "category": "wind",
+      "license": "CC0",
+      "enabled": true,
+      "volume": 0.025
+    },
+    {
+      "file": "night/cicada_chorus_cc0.ogg",
+      "path": "/assets/sfx/night/cicada_chorus_cc0.ogg",
+      "name": "Night Cicadas",
+      "category": "night",
+      "license": "CC0",
+      "enabled": true,
+      "volume": 0.025
+    },
+    {
+      "file": "thunder/rain_thunder_short.ogg",
+      "path": "/assets/sfx/thunder/rain_thunder_short.ogg",
+      "name": "Distant Thunder",
+      "category": "thunder",
+      "license": "Public Domain",
+      "enabled": true,
+      "volume": 0.015
+    }
+  ]
+}
